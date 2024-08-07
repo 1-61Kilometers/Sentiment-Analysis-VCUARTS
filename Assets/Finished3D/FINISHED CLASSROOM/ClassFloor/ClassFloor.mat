@@ -21,19 +21,18 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: ClassFloor
-  m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 1d8ecdd6a12821c4e805552172b221da, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
+  m_ValidKeywords: []
+  m_InvalidKeywords:
   - _METALLICSPECGLOSSMAP
   - _NORMALMAP
-  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
-  stringTagMap:
-    RenderType: Opaque
+  stringTagMap: {}
   disabledShaderPasses: []
   m_LockedProperties: 
   m_SavedProperties:
@@ -41,6 +40,10 @@ Material:
     m_TexEnvs:
     - _BaseMap:
         m_Texture: {fileID: 2800000, guid: f230dafaf82ae5048b793545f0d08e5f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseMap1:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -79,6 +82,14 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_2e64636d29414f379d7a93b95483df6a_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 50179f5967013cf44a5137a82eb9efcb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_f4e2cfa9a6ff4df29429de0e50721650_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: be4743cf8def15b4b943f6d55368de75, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -100,6 +111,7 @@ Material:
     - _AlphaClip: 0
     - _AlphaToMask: 0
     - _Blend: 0
+    - _BlendFactor: 0
     - _BlendModePreserveSpecular: 1
     - _BumpScale: 1
     - _ClearCoatMask: 0
@@ -118,6 +130,7 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
+    - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
     - _Smoothness: 0
