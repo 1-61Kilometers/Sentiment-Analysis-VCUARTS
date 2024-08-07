@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1301089897672258279
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8827077523936558683}
+  - component: {fileID: 1895764692677468117}
+  m_Layer: 0
+  m_Name: Bathroom Actor Script
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8827077523936558683
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1301089897672258279}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.19860744, y: 6.9075336, z: -38.304184}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1895764692677468117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1301089897672258279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7e98ebe1f6de78498f9cea7af2133d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textObject: {fileID: 0}
+  script:
+  - 
+  - 'Finding employment was a crucial step in establishing ourselves in our new home. '
+  - 'My first days at work were really great. The people were very nice and very
+    welcoming. We had a really good team. We used to even hang out after work sometimes. '
+  - 'Immigrants often do a lot of cleaning jobs. Even my mother-in-law did. It''s
+    tough for everyone. I remember when my father-in-law first came here, he did
+    theater cleaning, which had to be done around 2 in the morning. My mom and I
+    wanted to help, so we went with him. '
+  - I made $3.75 an hour through a summer youth program. They take in youth workers
+    during the summer and we do various odd things like, you know, picking the trash,
+    dumping it out, and going to the office and cleaning, you know, things like that.
+    As Asians, we were very family-oriented. So I didn't get to keep the money. It
+    helped go towards other things,like with grocery bills and whatnot.
+  - 

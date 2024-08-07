@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2906769169327054415
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8669119673607896926}
+  - component: {fileID: 1994825574021695446}
+  m_Layer: 0
+  m_Name: School Actor Prefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8669119673607896926
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2906769169327054415}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.19860744, y: 6.9075336, z: -38.304184}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1994825574021695446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2906769169327054415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7e98ebe1f6de78498f9cea7af2133d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textObject: {fileID: 0}
+  script:
+  - 
+  - 'I remember all these stupid kids. I was growing up as a Chinese-American in
+    New Mexico. See, back then, I just knew I was different, but now that I think
+    about it. . . man, those were a bunch of minorities picking on someone who''s
+    more of a minority. '
+  - "At that time, there's a show called Kung Fu on, right? and it was very popular.
+    And these kids would bring me sticks of crap and hold it for me and say, \u201CBreak
+    it.\u201D And the odd thing about it, right, I just said, \u201CWell, okay. I'll
+    try.\u201D"
+  - "And so, they bring these whole things of branches, and I was smacking them,
+    and I remember getting bruises and cuts on my hands because I just tried to break
+    these things because\u2013the thing is\u2013well, \u201CYou're Chinese, so you
+    must know Kung Fu.\u201D And I just remember thinking, \u201CMan, that hurts.\u201D"
+  - "And I remember just little things, like bringing lunch.  I would bring joong
+    to school and just Chinese stuff, right? And  people are like, \u201COh, what's
+    that? What's that?\u201DI was getting really embarrassed because they asked me
+    about it, right? And I called it a Chinese tamale because  I knew what a tamale
+    was, right? And then they asked what the ingredients were in it, and I said Chinese
+    sausage. And the kids go, \u201COh, what? He said Chinese shit! He's eating Chinese
+    shit! !"
+  - 'As a parent, I always felt sorry. Although our kids did well, they didn''t receive
+    as much support from their parents, especially since we didn''t know much about
+    the USA, and we felt inadequate. '
+  - "I think people don\u2019t always like what\u2019s different. Maybe they don\u2019t
+    like what they don\u2019t understand.  "
+  - 

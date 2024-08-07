@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8481952909996235116
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7827381453224681248}
+  - component: {fileID: 4181033900061678587}
+  m_Layer: 0
+  m_Name: Hospital Actor Script
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7827381453224681248
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8481952909996235116}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.19860744, y: 6.9075336, z: -38.304184}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4181033900061678587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8481952909996235116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7e98ebe1f6de78498f9cea7af2133d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textObject: {fileID: 0}
+  script:
+  - 
+  - "\u201CI don't like how you talk.\u201D"
+  - "\u201CNo. I want somebody who's white to come and take care of my dad.\u201D "
+  - "\u201CI can't understand anything that you\u2019re saying.\u201D "
+  - "\u201CI want that Asian woman back.\u201D "
+  - 'From language barriers to cultural differences in healthcare practices, every
+    visit to the hospital was a learning experience that reinforced the resilience
+    and strength of our immigrant community. '
+  - The first few times visiting medical centers for check-ups and vaccinations were
+    overwhelming yet necessary steps in our journey.
+  - The unfamiliar sights and sounds of the medical environment stirred up feelings
+    of vulnerability, but knowing that it was for our well-being gave us the strength
+    to persevere.
+  - My aunt accompanied us to various medical centers, ensuring that we received
+    the necessary check-ups and healthcare that we had never had access to back in
+    Laos. Her guidance and advocacy were invaluable as we navigated a healthcare
+    system that was entirely foreign to us.
+  - "I remember being sick. I had the chickenpox and I was treated. We had a language
+    barrier because my parents didn\u2019t speak English and we didn't either, you
+    know, I was a 7-year-old. I never felt unsafe or mistreated, though, maybe because
+    I didn't know any better. "
+  - 

@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &418034944911143476
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7833724422195544467}
+  - component: {fileID: 117556528954492504}
+  m_Layer: 0
+  m_Name: Airport Actor Script
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7833724422195544467
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 418034944911143476}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.19860744, y: 6.9075336, z: -38.304184}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &117556528954492504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 418034944911143476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7e98ebe1f6de78498f9cea7af2133d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textObject: {fileID: 0}
+  script:
+  - 
+  - "My family wasn\u2019t with me, my friends, my world. I found myself jumping
+    from one place to the other fast without evaluating the life I was leaving behind.
+    I was upset with myself even though I was very young. It made me appreciate my
+    home country\u2019s worth and my parents. You may think something is fine and
+    dandy in your mind but the reality may be something strange and scary."
+  - I was so worried, in general, because I had literally nothing. Later, I found
+    myself really scared because I didn't know English. I couldn't drive.
+  - "I moved here when I was 7 years old. I was pushed back a year because of the
+    English barrier. It was really hard to understand the American culture. I didn't
+    know a lot of the things American kids talked about. I felt very isolated, so
+    that caused me to pick up a lot of different things and push my cultures aside
+    and try to pick up the American culture as fast as I could: the language, the
+    shows, the outfits. So, in 7th grade, I had this one instant where I was trying
+    to explain something to my mom, and I remember, like, her not fully understanding
+    what I was saying and that was because of me pushing my culture to the side,
+    my language to the side, my Bengali culture and heritage to the side, that I
+    wasn't able to fully communicate and express what I wanted to express to my mom,
+    and that was kind of like an awakening moment. And I remember that instant as
+    being like a driving force to kind of reconnect with my culture to understand
+    the duality of my different identities as a Bengali American. I didn\u2019t have
+    to choose one or the other."
+  - "I didn\u2019t know anything to survive here. "
+  - "I didn\u2019t know if I could even get a job."
+  - 'I felt very alone. '
+  - I missed my family a lot.
+  - (together) Despite everything, this is where I wanted to be.
+  - 'It was the first time for the whole family, too. We were going to an unknown
+    world. When I got off, it felt so new and mysterious because I was now in the
+    United States. '
+  - With only a few pairs of clothing in a plastic bag and a pair of sneakers on
+    my feet, I boarded the airplane. The donated sweater given to me upon arrival
+    was a small comfort against the cool weather of the city. Despite our shared
+    journey, my fellow refugees on the plane were all navigating this new experience
+    individually, unable to provide much comfort to one another.
+  - "I haven\u2019t really asked my parents what it was like for them."
