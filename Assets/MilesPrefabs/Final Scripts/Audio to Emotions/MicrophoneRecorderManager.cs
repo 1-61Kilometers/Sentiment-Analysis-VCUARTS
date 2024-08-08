@@ -4,6 +4,8 @@ using System.Threading.Tasks;
 using TMPro;
 using System.Linq;
 using System.Diagnostics;
+using UnityEngine.UI;
+using System.Collections.Generic;
 
 public class MicrophoneRecorderManager : MonoBehaviour
 {
@@ -14,6 +16,9 @@ public class MicrophoneRecorderManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI timingTextUser2;
     [SerializeField] private bool showDebugInfo = true;
     [SerializeField] private float audioQualityThreshold = 0.01f;
+
+    [SerializeField] private TMP_Dropdown dropdownUser1;
+    [SerializeField] private TMP_Dropdown dropdownUser2;
 
     private AudioRecorder audioRecorderUser1;
     private AudioRecorder audioRecorderUser2;
@@ -30,16 +35,7 @@ public class MicrophoneRecorderManager : MonoBehaviour
     private void Start()
     {
         InitializeComponents();
-        if (InitializeMicrophones())
-        {
-            StartCoroutine(ContinuousRecordingCoroutineUser1());
-            StartCoroutine(ContinuousRecordingCoroutineUser2());
-        }
-        else
-        {
-            UnityEngine.Debug.LogError("Failed to initialize microphones. Disabling MicrophoneRecorderManager.");
-            enabled = false;
-        }
+        PopulateMicrophoneDropdowns();
     }
 
     private void InitializeComponents()
@@ -54,18 +50,48 @@ public class MicrophoneRecorderManager : MonoBehaviour
         emotionAnalyzerUser2 = gameObject.AddComponent<EmotionAnalyzer>();
     }
 
-    private bool InitializeMicrophones()
+    private void PopulateMicrophoneDropdowns()
     {
-        bool user1MicFound = audioRecorderUser1.TryFindHighDefinitionAudioDevice(true);
-        bool user2MicFound = audioRecorderUser2.TryFindHighDefinitionAudioDevice(false);
+        var microphones = Microphone.devices.ToList();
+        
+        PopulateDropdown(dropdownUser1, microphones, true);
+        PopulateDropdown(dropdownUser2, microphones, false);
+    }
 
-        if (!user1MicFound || !user2MicFound)
+    private void PopulateDropdown(TMP_Dropdown dropdown, List<string> options, bool isUser1)
+    {
+        dropdown.ClearOptions();
+        dropdown.AddOptions(options);
+        dropdown.onValueChanged.AddListener(delegate { OnMicrophoneSelected(dropdown, isUser1); });
+    }
+
+    public void SetMicrophone(string microphoneName, bool isUser1)
+    {
+        AudioRecorder audioRecorder = isUser1 ? audioRecorderUser1 : audioRecorderUser2;
+
+        if (audioRecorder != null)
         {
-            UnityEngine.Debug.LogError("Failed to find two separate High Definition Audio Devices.");
-            return false;
+            audioRecorder.SetMicrophone(microphoneName);
+            
+            // If both microphones are selected, start the recording process
+            if (audioRecorderUser1 != null && audioRecorderUser2 != null &&
+                !string.IsNullOrEmpty(audioRecorderUser1.GetMicrophoneName()) && 
+                !string.IsNullOrEmpty(audioRecorderUser2.GetMicrophoneName()))
+            {
+                StartCoroutine(ContinuousRecordingCoroutineUser1());
+                StartCoroutine(ContinuousRecordingCoroutineUser2());
+            }
         }
+        else
+        {
+            UnityEngine.Debug.LogError($"AudioRecorder for User {(isUser1 ? "1" : "2")} is null.");
+        }
+    }
 
-        return true;
+    private void OnMicrophoneSelected(TMP_Dropdown dropdown, bool isUser1)
+    {
+        string selectedMicrophone = dropdown.options[dropdown.value].text;
+        SetMicrophone(selectedMicrophone, isUser1);
     }
 
     private void OnGUI()

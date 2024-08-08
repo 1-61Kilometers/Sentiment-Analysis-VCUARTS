@@ -8,13 +8,13 @@ using TMPro;
 [Serializable]
 public struct EmotionData
 {
-    public int Angry;
-    public int Anticipation;
-    public int Disgust;
-    public int Sad;
-    public int Fear;
-    public int Happy;
     public int Suprise;
+    public int Happy;
+    public int Sad;
+    public int Angry;
+    public int Fear;
+    public int Disgust;
+    public int Anticipation;
     public int Lonely;
 }
 
