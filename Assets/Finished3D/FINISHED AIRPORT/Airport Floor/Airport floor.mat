@@ -26,19 +26,11 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseMap:
-<<<<<<< Updated upstream
         m_Texture: {fileID: 2800000, guid: 1dd7c7eedd5925e478c9f81113dcd759, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap1:
         m_Texture: {fileID: 2800000, guid: 1dd7c7eedd5925e478c9f81113dcd759, type: 3}
-=======
-        m_Texture: {fileID: 2800000, guid: a321e127604cd284baf968784f39d76d, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _BaseMap1:
-        m_Texture: {fileID: 2800000, guid: a321e127604cd284baf968784f39d76d, type: 3}
->>>>>>> Stashed changes
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
