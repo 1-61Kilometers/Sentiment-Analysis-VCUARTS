@@ -2,12 +2,13 @@ using UnityEngine;
 using UnityEngine.Networking;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using System.Text.RegularExpressions;
 
 public class ChatGPTAPIClient : MonoBehaviour
 {
     private const string CHATGPT_API_URL = "https://api.openai.com/v1/chat/completions";
 
-    public async Task<string> SendTextToChatGPTAsync(string text, string apiKey)
+    public async Task<(string emotionAnalysis, string companyName)> SendTextToChatGPTAsync(string text, string apiKey)
     {
         Debug.Log("Sending text to ChatGPT API");
 
@@ -16,7 +17,7 @@ public class ChatGPTAPIClient : MonoBehaviour
             new Message
             {
                 role = "system",
-                content = "Analyze the emotional content of the given text. Output a JSON object with integer values from 0 to 10 for each of these emotions: Angry,Anticipation,Sad,Disgust,Fear,Happy,Neutral,Suprise,Lonely. Use 0 if the emotion is not present. Only output the JSON object, nothing else."
+                content = "Analyze the emotional content of the given text and suggest an appropriate real world company name if nothing good output N/A. Output a JSON object with two properties: 'emotions' and 'companyName'. The 'emotions' property should contain integer values from 0 to 10 for each of these emotions: Angry, Anticipation, Sad, Disgust, Fear, Happy, Neutral, Surprise, Lonely. Use 0 if the emotion is not present. The 'companyName' property should ONLY contain the name of a company that would be appropriate based on the emotional analysis, with no additional text or explanation. Only output the JSON object, nothing else."
             },
             new Message
             {
@@ -27,7 +28,7 @@ public class ChatGPTAPIClient : MonoBehaviour
 
         var requestData = new ChatGPTRequest
         {
-            model = "gpt-4o",
+            model = "gpt-4o-mini",
             messages = messages
         };
 
@@ -48,14 +49,33 @@ public class ChatGPTAPIClient : MonoBehaviour
         if (request.result == UnityWebRequest.Result.Success)
         {
             var chatGPTResponse = JsonUtility.FromJson<ChatGPTResponse>(request.downloadHandler.text);
-            Debug.Log($"ChatGPT API response: {chatGPTResponse.choices[0].message.content}");
-            return chatGPTResponse.choices[0].message.content;
+            string processedContent = ProcessResponse(chatGPTResponse.choices[0].message.content);
+            var (emotionAnalysis, companyName) = ParseProcessedResponse(processedContent);
+            Debug.Log($"Processed ChatGPT API response - Emotions: {emotionAnalysis}, Company Name: {companyName}");
+            return (emotionAnalysis, companyName);
         }
         else
         {
             Debug.LogError($"ChatGPT API Error: {request.error}\nResponse Code: {request.responseCode}\nResponse: {request.downloadHandler.text}");
-            return null;
+            return (null, null);
         }
+    }
+
+    private string ProcessResponse(string response)
+    {
+        string processedResponse = Regex.Replace(response, "\"Anxiety\"\\s*:", "\"Anticipation\":");
+        return processedResponse;
+    }
+
+    private (string emotionAnalysis, string companyName) ParseProcessedResponse(string processedResponse)
+    {
+        // Parse the JSON response
+        var jsonResponse = JsonUtility.FromJson<APIResponse>(processedResponse);
+
+        // Convert the emotions object to a string
+        string emotionAnalysis = JsonUtility.ToJson(jsonResponse.emotions);
+
+        return (emotionAnalysis, jsonResponse.companyName);
     }
 
     [System.Serializable]
@@ -82,5 +102,26 @@ public class ChatGPTAPIClient : MonoBehaviour
         {
             public Message message;
         }
+    }
+
+    [System.Serializable]
+    private class APIResponse
+    {
+        public Emotions emotions;
+        public string companyName;
+    }
+
+    [System.Serializable]
+    private class Emotions
+    {
+        public int Angry;
+        public int Anticipation;
+        public int Sad;
+        public int Disgust;
+        public int Fear;
+        public int Happy;
+        public int Neutral;
+        public int Surprise;
+        public int Lonely;
     }
 }

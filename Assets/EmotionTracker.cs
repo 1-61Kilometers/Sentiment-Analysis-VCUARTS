@@ -88,7 +88,7 @@ public class EmotionTracker : MonoBehaviour
     {
         if (werms != null)
         {
-            werms.text = MainEmotion;
+            werms.text = MainEmotion == "Anticipation" ? "Anxiety" : MainEmotion;
         }
         UpdateParticleSystems();
     }

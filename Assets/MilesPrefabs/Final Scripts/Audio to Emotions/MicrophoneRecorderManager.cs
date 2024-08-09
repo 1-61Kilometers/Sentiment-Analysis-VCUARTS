@@ -14,6 +14,8 @@ public class MicrophoneRecorderManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI outputTextUser2;
     [SerializeField] private TextMeshProUGUI timingTextUser1;
     [SerializeField] private TextMeshProUGUI timingTextUser2;
+    [SerializeField] private TextMeshProUGUI companyNameTextUser1;
+    [SerializeField] private TextMeshProUGUI companyNameTextUser2;
     [SerializeField] private bool showDebugInfo = true;
     [SerializeField] private float audioQualityThreshold = 0.01f;
 
@@ -110,7 +112,7 @@ public class MicrophoneRecorderManager : MonoBehaviour
         while (true)
         {
             yield return StartCoroutine(RecordAudioSegment(audioRecorderUser1, audioProcessorUser1));
-            ProcessLatestRecording(audioRecorderUser1, audioProcessorUser1, outputTextUser1, stopwatchUser1, timingTextUser1, emotionAnalyzerUser1);
+            ProcessLatestRecording(audioRecorderUser1, audioProcessorUser1, outputTextUser1, stopwatchUser1, timingTextUser1, emotionAnalyzerUser1, companyNameTextUser2);
             yield return new WaitForSeconds(0.1f);
         }
     }
@@ -120,7 +122,7 @@ public class MicrophoneRecorderManager : MonoBehaviour
         while (true)
         {
             yield return StartCoroutine(RecordAudioSegment(audioRecorderUser2, audioProcessorUser2));
-            ProcessLatestRecording(audioRecorderUser2, audioProcessorUser2, outputTextUser2, stopwatchUser2, timingTextUser2, emotionAnalyzerUser2);
+            ProcessLatestRecording(audioRecorderUser2, audioProcessorUser2, outputTextUser2, stopwatchUser2, timingTextUser2, emotionAnalyzerUser2, companyNameTextUser1);
             yield return new WaitForSeconds(0.1f);
         }
     }
@@ -144,7 +146,7 @@ public class MicrophoneRecorderManager : MonoBehaviour
         recorder.StopRecording();
     }
 
-    private void ProcessLatestRecording(AudioRecorder recorder, AudioProcessor processor, TextMeshProUGUI outputText, Stopwatch stopwatch, TextMeshProUGUI timingText, EmotionAnalyzer emotionAnalyzer)
+    private void ProcessLatestRecording(AudioRecorder recorder, AudioProcessor processor, TextMeshProUGUI outputText, Stopwatch stopwatch, TextMeshProUGUI timingText, EmotionAnalyzer emotionAnalyzer, TextMeshProUGUI adSuggestionText)
     {
         AudioClip processedClip = processor.GetProcessedClip(recorder.GetRecordedClip().frequency);
 
@@ -152,7 +154,7 @@ public class MicrophoneRecorderManager : MonoBehaviour
         {
             UnityEngine.Debug.Log("Audio quality sufficient. Processing audio...");
             stopwatch.Restart();
-            _ = ProcessAudioAsync(processedClip, outputText, stopwatch, timingText, emotionAnalyzer);
+            _ = ProcessAudioAsync(processedClip, outputText, stopwatch, timingText, emotionAnalyzer, adSuggestionText);
         }
         else
         {
@@ -161,7 +163,7 @@ public class MicrophoneRecorderManager : MonoBehaviour
         }
     }
 
-    private async Task ProcessAudioAsync(AudioClip processedClip, TextMeshProUGUI outputText, Stopwatch stopwatch, TextMeshProUGUI timingText, EmotionAnalyzer emotionAnalyzer)
+    private async Task ProcessAudioAsync(AudioClip processedClip, TextMeshProUGUI outputText, Stopwatch stopwatch, TextMeshProUGUI timingText, EmotionAnalyzer emotionAnalyzer, TextMeshProUGUI companyNameText)
     {
         byte[] audioBytes = WavUtility.FromAudioClip(processedClip);
         
@@ -174,12 +176,17 @@ public class MicrophoneRecorderManager : MonoBehaviour
             await UpdateUIAsync(() => outputText.text = transcribedText);
             
             Stopwatch chatGPTStopwatch = Stopwatch.StartNew();
-            string emotionJson = await chatGPTAPIClient.SendTextToChatGPTAsync(transcribedText, apiKey);
+            var (emotionJson, companyName) = await chatGPTAPIClient.SendTextToChatGPTAsync(transcribedText, apiKey);
             chatGPTStopwatch.Stop();
 
             if (!string.IsNullOrEmpty(emotionJson))
             {
                 await UpdateUIAsync(() => emotionAnalyzer.UpdateEmotions(emotionJson));
+            }
+
+            if (!string.IsNullOrEmpty(companyName))
+            {
+                await UpdateUIAsync(() => companyNameText.text = $"Suggested Company: {companyName}");
             }
 
             stopwatch.Stop();
