@@ -228,6 +228,14 @@ PrefabInstance:
       propertyPath: m_TargetDisplay
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 624981706444590038, guid: 880003b60658cae468821192fa0240b1, type: 3}
+      propertyPath: m_text
+      value: anxiety
+      objectReference: {fileID: 0}
+    - target: {fileID: 849139694673666513, guid: 880003b60658cae468821192fa0240b1, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 83.2
+      objectReference: {fileID: 0}
     - target: {fileID: 1016672848153848302, guid: 880003b60658cae468821192fa0240b1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 220.95679
@@ -268,6 +276,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1133084833425976196, guid: 880003b60658cae468821192fa0240b1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -78.1
+      objectReference: {fileID: 0}
     - target: {fileID: 1623199369541949346, guid: 880003b60658cae468821192fa0240b1, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -534
@@ -278,7 +290,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1809829242427317113, guid: 880003b60658cae468821192fa0240b1, type: 3}
       propertyPath: m_text
-      value: anxiety
+      value: hope
       objectReference: {fileID: 0}
     - target: {fileID: 2231819233121296014, guid: 880003b60658cae468821192fa0240b1, type: 3}
       propertyPath: companyNameTextUser1
@@ -478,7 +490,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7695403314772504087, guid: 880003b60658cae468821192fa0240b1, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -83
+      value: -49.1
       objectReference: {fileID: 0}
     - target: {fileID: 7695403314772504087, guid: 880003b60658cae468821192fa0240b1, type: 3}
       propertyPath: m_AnchoredPosition.y

@@ -17,7 +17,7 @@ public class ChatGPTAPIClient : MonoBehaviour
             new Message
             {
                 role = "system",
-                content = "Analyze the emotional content of the given text and suggest an appropriate real world company name if nothing good output N/A. Output a JSON object with two properties: 'emotions' and 'companyName'. The 'emotions' property should contain integer values from 0 to 10 for each of these emotions: Angry, Anticipation, Sad, Disgust, Fear, Happy, Neutral, Surprise, Lonely. Use 0 if the emotion is not present. The 'companyName' property should ONLY contain the name of a company that would be appropriate based on the emotional analysis, with no additional text or explanation. Only output the JSON object, nothing else."
+                content = "Analyze the emotional content of the given text and suggest an appropriate real world company name if nothing good output N/A. Output a JSON object with two properties: 'emotions' and 'companyName'. The 'emotions' property should contain integer values from 0 to 10 for each of these emotions: Angry, Hope, Sad, Disgust, Anxiety, Happy, Neutral, Surprise, Lonely. Use 0 if the emotion is not present. The 'companyName' property should ONLY contain the name of a company that would be appropriate based on the emotional analysis, with no additional text or explanation. Only output the JSON object, nothing else."
             },
             new Message
             {
@@ -62,10 +62,12 @@ public class ChatGPTAPIClient : MonoBehaviour
     }
 
     private string ProcessResponse(string response)
-    {
-        string processedResponse = Regex.Replace(response, "\"Anxiety\"\\s*:", "\"Anticipation\":");
-        return processedResponse;
-    }
+{
+    string processedResponse = response;
+    processedResponse = Regex.Replace(processedResponse, "\"Anxiety\"\\s*:", "\"Fear\":");
+    processedResponse = Regex.Replace(processedResponse, "\"Hope\"\\s*:", "\"Anticipation\":");
+    return processedResponse;
+}
 
     private (string emotionAnalysis, string companyName) ParseProcessedResponse(string processedResponse)
     {
