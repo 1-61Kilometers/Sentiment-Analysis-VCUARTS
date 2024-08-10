@@ -324,9 +324,745 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   emotionTracker: {fileID: 0}
   materialTextureSets:
-  - material: {fileID: 0}
-    textures: []
+  - material: {fileID: 2100000, guid: aab592f0283fb5046a568f77030dfcf5, type: 2}
+    textures:
+    - emotion: Angry
+      texture: {fileID: 2800000, guid: 7a5251ca6f261554db7f513ea038f1f4, type: 3}
+    - emotion: Anticipation
+      texture: {fileID: 2800000, guid: 9800197dfcd1d75449f46788f9b8a448, type: 3}
+    - emotion: Disgust
+      texture: {fileID: 2800000, guid: 68a95d0c87123ae4eb2c8c5d10d2ed4d, type: 3}
+    - emotion: Fear
+      texture: {fileID: 2800000, guid: 81d2ccdfc836c1442854b4ca5ebe5d81, type: 3}
+    - emotion: Happy
+      texture: {fileID: 2800000, guid: ad0607763b4ca034dbe657a0502c74d8, type: 3}
+    - emotion: Neutral
+      texture: {fileID: 2800000, guid: 9a7dfc017d68cc045a1686d0074f9384, type: 3}
+    - emotion: Suprise
+      texture: {fileID: 2800000, guid: 6221c12dbef26b649b40f6c3019ac349, type: 3}
+  - material: {fileID: 2100000, guid: 900757a72f000da4aaf04ce6bbb0b26b, type: 2}
+    textures:
+    - emotion: Angry
+      texture: {fileID: 2800000, guid: d4770a842aec3764aa1aeb1d4675f7ee, type: 3}
+    - emotion: Anticipation
+      texture: {fileID: 2800000, guid: 7da0e4161db752b4d8f8a059bdf2e92c, type: 3}
+    - emotion: Disgust
+      texture: {fileID: 2800000, guid: 6170781602cf99e4282ecb099cfd2303, type: 3}
+    - emotion: Fear
+      texture: {fileID: 2800000, guid: 62900792d5d7e3f4c9508828cbe79e74, type: 3}
+    - emotion: Happy
+      texture: {fileID: 2800000, guid: 74cfe1d4bc5b878409578eb17a6722c1, type: 3}
+    - emotion: Neutral
+      texture: {fileID: 2800000, guid: 46780b537c2a73c4eb9106ee2d4a0e0f, type: 3}
+    - emotion: Suprise
+      texture: {fileID: 2800000, guid: ed745f01d506fb54388145cfbc56efcb, type: 3}
+  - material: {fileID: 2100000, guid: d9e08914675e90e43b5bd2a6dc5a4669, type: 2}
+    textures:
+    - emotion: Angry
+      texture: {fileID: 2800000, guid: 048bc14de06c9db4cb1d0e3573e37282, type: 3}
+    - emotion: Anticipation
+      texture: {fileID: 2800000, guid: 54736fb8141e82a46a6f8ebc4e2960f7, type: 3}
+    - emotion: Disgust
+      texture: {fileID: 2800000, guid: 6c8523895be660b47b23648a0cea9093, type: 3}
+    - emotion: Fear
+      texture: {fileID: 2800000, guid: 654feef5f63fd314189e2a7f00b5cc9e, type: 3}
+    - emotion: Happy
+      texture: {fileID: 2800000, guid: 3ca90fcf0fd6a3548a60bec2bfc7a06a, type: 3}
+    - emotion: Neutral
+      texture: {fileID: 2800000, guid: fa69baf5c6769ec4fb2018edffbe5c24, type: 3}
+    - emotion: Suprise
+      texture: {fileID: 2800000, guid: 791b109277d3d9b438b905317aac3526, type: 3}
+  - material: {fileID: 2100000, guid: 4b8c8f8e618d66444b87135a2aebb77a, type: 2}
+    textures:
+    - emotion: Angry
+      texture: {fileID: 2800000, guid: 8d8e17aa25a3f6b4381f83063bea0507, type: 3}
+    - emotion: Anticipation
+      texture: {fileID: 2800000, guid: 15f2e0bbe77ce2342a84e19eb67d1bb8, type: 3}
+    - emotion: Disgust
+      texture: {fileID: 2800000, guid: b22052a90f65d1b4a93ca87f7d607274, type: 3}
+    - emotion: Fear
+      texture: {fileID: 2800000, guid: 5be788b92e978d14bb00d4aec0029feb, type: 3}
+    - emotion: Happy
+      texture: {fileID: 2800000, guid: 32e0f8fd9c9fb63489176ebf2b9cfe0c, type: 3}
+    - emotion: Neutral
+      texture: {fileID: 2800000, guid: d2c30dadbb1990343a27427e300a4048, type: 3}
+    - emotion: Suprise
+      texture: {fileID: 2800000, guid: 3355111a6754d0047af73f1780924310, type: 3}
+  - material: {fileID: 2100000, guid: e26c432b37d597f4395eb4a0d30bc2e5, type: 2}
+    textures:
+    - emotion: Angry
+      texture: {fileID: 2800000, guid: 6576c621b886cc64082587e8d712c2a5, type: 3}
+    - emotion: Anticipation
+      texture: {fileID: 2800000, guid: d343d4ff710284d4a99086ed075a073d, type: 3}
+    - emotion: Disgust
+      texture: {fileID: 2800000, guid: c38742d4185ade64ba1f7148e1cba122, type: 3}
+    - emotion: Fear
+      texture: {fileID: 2800000, guid: 1f74f19d4742f58458d80567a5ca0cf0, type: 3}
+    - emotion: Happy
+      texture: {fileID: 2800000, guid: 563fef0af88b9314284088a8eea3ec66, type: 3}
+    - emotion: Neutral
+      texture: {fileID: 2800000, guid: 7f594b9cf9d615d4ba285e2eb9dfb99f, type: 3}
+    - emotion: Suprise
+      texture: {fileID: 2800000, guid: b2e10e5689b12834499509e8d3174ccf, type: 3}
+  - material: {fileID: 2100000, guid: d3388ab7a489fae498de3b182086e873, type: 2}
+    textures:
+    - emotion: Angry
+      texture: {fileID: 2800000, guid: bc0879b8fea0d7f4c947f5a03ab4131f, type: 3}
+    - emotion: Anticipation
+      texture: {fileID: 2800000, guid: b476683eafbda3a4dbcc54346b68f9e6, type: 3}
+    - emotion: Disgust
+      texture: {fileID: 2800000, guid: 490cf4c97129b1c43974aa861940dbcd, type: 3}
+    - emotion: Fear
+      texture: {fileID: 2800000, guid: 402609e5aefbab843a025ad93adcf2c7, type: 3}
+    - emotion: Happy
+      texture: {fileID: 2800000, guid: c84bdffec2d835d478ce48193dc43280, type: 3}
+    - emotion: Neutral
+      texture: {fileID: 2800000, guid: b0a50a3f5730c7342a1c6cf05ea81c63, type: 3}
+    - emotion: Suprise
+      texture: {fileID: 2800000, guid: 5e63daf91dc34db4bbfad30bab16659d, type: 3}
+  - material: {fileID: 2100000, guid: 1b54d3a730b7a2947a09f3d0470318b1, type: 2}
+    textures:
+    - emotion: Angry
+      texture: {fileID: 2800000, guid: 093552685dc136e4a87407fca37f9e59, type: 3}
+    - emotion: Anticipation
+      texture: {fileID: 2800000, guid: c51fa450b7cfeed4689c093b63dd6953, type: 3}
+    - emotion: Disgust
+      texture: {fileID: 2800000, guid: 834b26aebe8ea9c449a66be154a04ed7, type: 3}
+    - emotion: Fear
+      texture: {fileID: 2800000, guid: cec92cec215a257488fb849410eb35ad, type: 3}
+    - emotion: Happy
+      texture: {fileID: 2800000, guid: e6f03df4709ed3b45b89edf86caa3ecf, type: 3}
+    - emotion: Neutral
+      texture: {fileID: 2800000, guid: ffab87e7b2666ae40a532085a603db06, type: 3}
+    - emotion: Suprise
+      texture: {fileID: 2800000, guid: 44c916ac0276d2e4fa1d6071611ad115, type: 3}
+  - material: {fileID: 2100000, guid: 86faf89353caadf4d9b3330ab41a683b, type: 2}
+    textures:
+    - emotion: Angry
+      texture: {fileID: 2800000, guid: 796578e3b1a882348986052d9511488a, type: 3}
+    - emotion: Anticipation
+      texture: {fileID: 2800000, guid: 823738504c6057640882eec29834ea9c, type: 3}
+    - emotion: Disgust
+      texture: {fileID: 2800000, guid: bd862299befc6c64d9fef6d2a053344a, type: 3}
+    - emotion: Fear
+      texture: {fileID: 2800000, guid: aa2c0a5a2d55aa647aacb29c3d4f6587, type: 3}
+    - emotion: Happy
+      texture: {fileID: 2800000, guid: 4dbe0ee0cd02bf94d9e15d987b0c9682, type: 3}
+    - emotion: Neutral
+      texture: {fileID: 2800000, guid: c4079bffdd6bc1446a4b5b72cd7f2dd7, type: 3}
+    - emotion: Suprise
+      texture: {fileID: 2800000, guid: 56dac725552fd31469ee4e721b103408, type: 3}
+  - material: {fileID: 2100000, guid: 11b88349fd1b5624cb0a46c9010460bf, type: 2}
+    textures:
+    - emotion: Angry
+      texture: {fileID: 2800000, guid: a5febd621fd56c14dba2a7b56a3ce608, type: 3}
+    - emotion: Anticipation
+      texture: {fileID: 2800000, guid: fd60e863d907b2e40bbd4b26f62f8d51, type: 3}
+    - emotion: Disgust
+      texture: {fileID: 2800000, guid: 9c7150812b954d343bf62009d4ae66d7, type: 3}
+    - emotion: Fear
+      texture: {fileID: 2800000, guid: c6f92434e51ea4d46b878781acd54df2, type: 3}
+    - emotion: Happy
+      texture: {fileID: 2800000, guid: f677b8bd4de3c27449fc37426f57b64e, type: 3}
+    - emotion: Neutral
+      texture: {fileID: 2800000, guid: 3eb931f09f40ce14bbe1c417c247f981, type: 3}
+    - emotion: Suprise
+      texture: {fileID: 2800000, guid: 88a5b4a81903a4f4c8e5ffd14d17bf60, type: 3}
+  - material: {fileID: 2100000, guid: 2c5fb40c955cca641876486bfab6eec6, type: 2}
+    textures:
+    - emotion: Angry
+      texture: {fileID: 2800000, guid: a20d8002d23a39944bb9bad8873837bd, type: 3}
+    - emotion: Anticipation
+      texture: {fileID: 2800000, guid: 5c4511fc04413c9428654f0a162c70b9, type: 3}
+    - emotion: Disgust
+      texture: {fileID: 2800000, guid: 8714d70350b00024782eb8050de6c7c6, type: 3}
+    - emotion: Fear
+      texture: {fileID: 2800000, guid: 2e0787841cd43c44694e46e0a2c978ae, type: 3}
+    - emotion: Happy
+      texture: {fileID: 2800000, guid: f958ba2b7bdf68648a06ce6048396dcd, type: 3}
+    - emotion: Neutral
+      texture: {fileID: 2800000, guid: 1ecdbec2f02a84c48a197e7974f001ee, type: 3}
+    - emotion: Suprise
+      texture: {fileID: 2800000, guid: ca465c9addcf2cd4a82e4746f35b573e, type: 3}
+  - material: {fileID: 2100000, guid: 00818da1f0d8eb64d9ce1378af4aa635, type: 2}
+    textures:
+    - emotion: Angry
+      texture: {fileID: 2800000, guid: fff6551dd54c5234bb2c4a32f7c6ba72, type: 3}
+    - emotion: Anticipation
+      texture: {fileID: 2800000, guid: 278d336f4fac445439c5ea7e7fc0a382, type: 3}
+    - emotion: Disgust
+      texture: {fileID: 2800000, guid: d7190017e346d80478bb0422d2e5949d, type: 3}
+    - emotion: Fear
+      texture: {fileID: 2800000, guid: c692826d5f4b6a44297635a1c1b084b6, type: 3}
+    - emotion: Happy
+      texture: {fileID: 2800000, guid: 8965f7ecf30708240b1cb15ae6270bd3, type: 3}
+    - emotion: Neutral
+      texture: {fileID: 2800000, guid: 79e13d26ed611224ba2f023948835e4a, type: 3}
+    - emotion: Suprise
+      texture: {fileID: 2800000, guid: 33bd34bb6907bc34e97a1c7b16483003, type: 3}
+  - material: {fileID: 2100000, guid: fcb1892d4e251a642ba5489a16026753, type: 2}
+    textures:
+    - emotion: Angry
+      texture: {fileID: 2800000, guid: 4e1b900161e50ea4b8beb1c394e394d7, type: 3}
+    - emotion: Anticipation
+      texture: {fileID: 2800000, guid: 2211904a6dbb3ac48bca9ab15a237094, type: 3}
+    - emotion: Disgust
+      texture: {fileID: 2800000, guid: fefe56acda1998943828fc01ab83edac, type: 3}
+    - emotion: Fear
+      texture: {fileID: 2800000, guid: 2cc21cd03956d2942bd9ee1e3266dfdc, type: 3}
+    - emotion: Happy
+      texture: {fileID: 2800000, guid: d83e894bdee6fd142b623eb6ecf1d08c, type: 3}
+    - emotion: Neutral
+      texture: {fileID: 2800000, guid: 891f3334c54694c4a9bfe0f48888e3a2, type: 3}
+    - emotion: Suprise
+      texture: {fileID: 2800000, guid: 8f629d45ce0e38940b936d938f72ec70, type: 3}
+  - material: {fileID: 2100000, guid: e0ca99509f7c9d042a6decfad3087d0f, type: 2}
+    textures:
+    - emotion: Angry
+      texture: {fileID: 2800000, guid: e485e5f8ccab717479813865f26a8d53, type: 3}
+    - emotion: Anticipation
+      texture: {fileID: 2800000, guid: 27135516a8fdd074a8ebbaea3e8fcb3e, type: 3}
+    - emotion: Disgust
+      texture: {fileID: 2800000, guid: 08a60d17079e62c4b914157ec30a2a20, type: 3}
+    - emotion: Fear
+      texture: {fileID: 2800000, guid: b6021b8c8809ea743b7432aa5fe89ce8, type: 3}
+    - emotion: Happy
+      texture: {fileID: 2800000, guid: 77d9bd20f17fda145bfaaec08da6d2ab, type: 3}
+    - emotion: Neutral
+      texture: {fileID: 2800000, guid: b4cb3619a018a414c8d31d2dd5f32e88, type: 3}
+    - emotion: Suprise
+      texture: {fileID: 2800000, guid: 66b540f51f2e8c149ac58710b08cbbe0, type: 3}
+  - material: {fileID: 2100000, guid: 4f3c7b5f66892dd41b55f7b6f13f2754, type: 2}
+    textures:
+    - emotion: Angry
+      texture: {fileID: 2800000, guid: 8ebeca86068472d4d991d52ed3bd1d57, type: 3}
+    - emotion: Anticipation
+      texture: {fileID: 2800000, guid: 3d428f4d0115bdf43ba9d2fbe944b0a1, type: 3}
+    - emotion: Disgust
+      texture: {fileID: 2800000, guid: 33d446a10b83c1c47809bf95e47284ff, type: 3}
+    - emotion: Fear
+      texture: {fileID: 2800000, guid: 8af4ec7b7f4e7ae4ca3dabfbda0b266b, type: 3}
+    - emotion: Happy
+      texture: {fileID: 2800000, guid: da19ed3d0f0ade84f93044a7b07218c1, type: 3}
+    - emotion: Neutral
+      texture: {fileID: 2800000, guid: 772af94c8b283004389853c3ba820644, type: 3}
+    - emotion: Suprise
+      texture: {fileID: 2800000, guid: 7d9c06a67ea4b184faea25293c835012, type: 3}
+  - material: {fileID: 2100000, guid: 5d63e3eb9ae359a439df6b7846daa124, type: 2}
+    textures:
+    - emotion: Angry
+      texture: {fileID: 2800000, guid: 5bb9d8b66e6e2724bb7ce22799846225, type: 3}
+    - emotion: Anticipation
+      texture: {fileID: 2800000, guid: a3a9b52488dbaa54db64b128c3469839, type: 3}
+    - emotion: Disgust
+      texture: {fileID: 2800000, guid: 01e1ee76f31d8c54db7ffec8eb87a67a, type: 3}
+    - emotion: Fear
+      texture: {fileID: 2800000, guid: 910fe3ea067782747a5dc0fdb75769cd, type: 3}
+    - emotion: Happy
+      texture: {fileID: 2800000, guid: 851c7cc44c8f5c043a595c135ffecd11, type: 3}
+    - emotion: Neutral
+      texture: {fileID: 2800000, guid: 36219150898652d41aca957de013a804, type: 3}
+    - emotion: Suprise
+      texture: {fileID: 2800000, guid: 2975ae40d6738ce4aa3f6fa29cca3e28, type: 3}
+  - material: {fileID: 2100000, guid: 94abb8fb92b876247a4df4323a6a7dd2, type: 2}
+    textures:
+    - emotion: Angry
+      texture: {fileID: 2800000, guid: 68debc48ff8891c47ab7fba1395ce9f8, type: 3}
+    - emotion: Anticipation
+      texture: {fileID: 2800000, guid: cd43d2d7e65cfa44bbaa7a692d3d1fb4, type: 3}
+    - emotion: Disgust
+      texture: {fileID: 2800000, guid: f0b53eee4db30df428c9dbb93b9393dc, type: 3}
+    - emotion: Fear
+      texture: {fileID: 2800000, guid: 62ea211d9dd614d47be4f847904f464c, type: 3}
+    - emotion: Happy
+      texture: {fileID: 2800000, guid: a64a09c01a1798445be53d81aca8490c, type: 3}
+    - emotion: Neutral
+      texture: {fileID: 2800000, guid: b4e2c077c1168e24ab94ea70dfd2ab53, type: 3}
+    - emotion: Suprise
+      texture: {fileID: 2800000, guid: b52e6cdfec411864c9865df607333c1e, type: 3}
+  - material: {fileID: 2100000, guid: 569372d9f8331764d88dd2448ac7d1a9, type: 2}
+    textures:
+    - emotion: Angry
+      texture: {fileID: 2800000, guid: c209af4ab0dfe9d449f2c675c3db9f3c, type: 3}
+    - emotion: Anticipation
+      texture: {fileID: 2800000, guid: 8462ccc91c1993f4dafd042411977c30, type: 3}
+    - emotion: Disgust
+      texture: {fileID: 2800000, guid: 447f465c5a24262448a21f74e9e71ef5, type: 3}
+    - emotion: Fear
+      texture: {fileID: 2800000, guid: a9eee4c3a6f2e6d40af3e5d371e6476a, type: 3}
+    - emotion: Happy
+      texture: {fileID: 2800000, guid: 4b913a9d66744364e9583d51453a94c2, type: 3}
+    - emotion: Neutral
+      texture: {fileID: 2800000, guid: 2850fabcc802bef44a63cbee974ca9f0, type: 3}
+    - emotion: Suprise
+      texture: {fileID: 2800000, guid: 9c8c74b391ed2204aa36bec7f0b493b4, type: 3}
+  - material: {fileID: 2100000, guid: ed5b7ce7753d50e47bd578b0e28fabde, type: 2}
+    textures:
+    - emotion: Angry
+      texture: {fileID: 2800000, guid: 7658b085d5b9db445819aed2341da54f, type: 3}
+    - emotion: Anticipation
+      texture: {fileID: 2800000, guid: 2a71e15ba6fd56f4a92d9101a8b9a858, type: 3}
+    - emotion: Disgust
+      texture: {fileID: 2800000, guid: 954ee3abe3870ef489af8281e8fcb830, type: 3}
+    - emotion: Fear
+      texture: {fileID: 2800000, guid: a3c9d6a58721f4447b74e6fc4b07cdaa, type: 3}
+    - emotion: Happy
+      texture: {fileID: 2800000, guid: 607413ef8d7556b468b96571d830ae0f, type: 3}
+    - emotion: Neutral
+      texture: {fileID: 2800000, guid: 2e779f0cd8dcff2429d61c59be639ad8, type: 3}
+    - emotion: Suprise
+      texture: {fileID: 2800000, guid: 1fed0b8daa1b19241b3559bcde3bc2ca, type: 3}
+  - material: {fileID: 2100000, guid: 1b55c3021a7ca624d94cfa80eed0733a, type: 2}
+    textures:
+    - emotion: Angry
+      texture: {fileID: 2800000, guid: c3a3466743c839146bfc1de6c7ddb029, type: 3}
+    - emotion: Anticipation
+      texture: {fileID: 2800000, guid: 548c374e426e1e14b986887c9e8547cb, type: 3}
+    - emotion: Disgust
+      texture: {fileID: 2800000, guid: 42026445cf2d4d6468185fd03d01f787, type: 3}
+    - emotion: Fear
+      texture: {fileID: 2800000, guid: 4bcdff931264f2b42b25e729aed041a9, type: 3}
+    - emotion: Happy
+      texture: {fileID: 2800000, guid: 25f295e6016050b4bbf65162d7da3a43, type: 3}
+    - emotion: Neutral
+      texture: {fileID: 2800000, guid: ae8d37465374d4444b924898a3f8441c, type: 3}
+    - emotion: Suprise
+      texture: {fileID: 2800000, guid: 4bc6dd2b2c5936b4684f25d04f6e028b, type: 3}
+  - material: {fileID: 2100000, guid: 1b55c3021a7ca624d94cfa80eed0733a, type: 2}
+    textures:
+    - emotion: Angry
+      texture: {fileID: 2800000, guid: 0d78263f3b6be5945930a1cb28a16ea3, type: 3}
+    - emotion: Anticipation
+      texture: {fileID: 2800000, guid: 2d4564de28d6e384294086fd5e4be08b, type: 3}
+    - emotion: Disgust
+      texture: {fileID: 2800000, guid: c43fac657f318784d91f12fc55d28f62, type: 3}
+    - emotion: Fear
+      texture: {fileID: 2800000, guid: e6c1ea3690e04fb48b34a723623f11a1, type: 3}
+    - emotion: Happy
+      texture: {fileID: 2800000, guid: 3628c11a44305dd428d8a8a80dddd66e, type: 3}
+    - emotion: Neutral
+      texture: {fileID: 2800000, guid: 3ed7ce8ab88ec0b4696b94d0ebe2a090, type: 3}
+    - emotion: Suprise
+      texture: {fileID: 2800000, guid: 7df9c95db497c7041a5434ebf79f3c90, type: 3}
+  - material: {fileID: 2100000, guid: 650a07bd820ddc7429c7450fc3933fb5, type: 2}
+    textures:
+    - emotion: Angry
+      texture: {fileID: 2800000, guid: 0d78263f3b6be5945930a1cb28a16ea3, type: 3}
+    - emotion: Anticipation
+      texture: {fileID: 2800000, guid: 2d4564de28d6e384294086fd5e4be08b, type: 3}
+    - emotion: Disgust
+      texture: {fileID: 2800000, guid: c43fac657f318784d91f12fc55d28f62, type: 3}
+    - emotion: Fear
+      texture: {fileID: 2800000, guid: e6c1ea3690e04fb48b34a723623f11a1, type: 3}
+    - emotion: Happy
+      texture: {fileID: 2800000, guid: 3628c11a44305dd428d8a8a80dddd66e, type: 3}
+    - emotion: Neutral
+      texture: {fileID: 2800000, guid: 3ed7ce8ab88ec0b4696b94d0ebe2a090, type: 3}
+    - emotion: Suprise
+      texture: {fileID: 2800000, guid: 7df9c95db497c7041a5434ebf79f3c90, type: 3}
+  - material: {fileID: 2100000, guid: cd9f44ebd07033d40b59806338fb49d1, type: 2}
+    textures:
+    - emotion: Angry
+      texture: {fileID: 2800000, guid: 85c1eb85d1787be4cab03d42d1ecb51e, type: 3}
+    - emotion: Anticipation
+      texture: {fileID: 2800000, guid: 69de72205def78142a9d56245fc76165, type: 3}
+    - emotion: Disgust
+      texture: {fileID: 2800000, guid: 950b82695f92e0e4aa5870a853fa6f7f, type: 3}
+    - emotion: Fear
+      texture: {fileID: 2800000, guid: de67a8cb7f99a594189dcd732f995134, type: 3}
+    - emotion: Happy
+      texture: {fileID: 2800000, guid: c5645a7f89e32224f98b38fe4b78e6a8, type: 3}
+    - emotion: Neutral
+      texture: {fileID: 2800000, guid: 639468cc1c2ea97478d54267dd86f25f, type: 3}
+    - emotion: Suprise
+      texture: {fileID: 2800000, guid: 6a413fb7c4a983d489c3921354cc1491, type: 3}
+  - material: {fileID: 2100000, guid: c73bf5382874aff4db18128dfb24643d, type: 2}
+    textures:
+    - emotion: Angry
+      texture: {fileID: 2800000, guid: c6a783a8ad740674cbde2ce990641ebd, type: 3}
+    - emotion: Anticipation
+      texture: {fileID: 2800000, guid: e247a2d2e3d528e42a471be3d4f32fb5, type: 3}
+    - emotion: Disgust
+      texture: {fileID: 2800000, guid: a7f424a21ebede84bbfe086fbdf00f04, type: 3}
+    - emotion: Fear
+      texture: {fileID: 2800000, guid: 89af1a25cd736454f9bf5ca86892b7ff, type: 3}
+    - emotion: Happy
+      texture: {fileID: 2800000, guid: 1643cda25359ea94ea6c2c3ff5efabc0, type: 3}
+    - emotion: Neutral
+      texture: {fileID: 2800000, guid: 44f6a48a1ec617a4caa7bdbf51a1176c, type: 3}
+    - emotion: Suprise
+      texture: {fileID: 2800000, guid: 47a69960860932d48bf3f48169bbbb8c, type: 3}
+  - material: {fileID: 2100000, guid: ce42f509e74828f4f98683581b7f768d, type: 2}
+    textures:
+    - emotion: Angry
+      texture: {fileID: 2800000, guid: 5d4691482c167104cb23b77639e4026c, type: 3}
+    - emotion: Anticipation
+      texture: {fileID: 2800000, guid: fea443698d150a34f9d27881139eb187, type: 3}
+    - emotion: Disgust
+      texture: {fileID: 2800000, guid: 9dbaf7c82341bfb4a8cbc05e9f3a8a20, type: 3}
+    - emotion: Fear
+      texture: {fileID: 2800000, guid: 0d865b6dcc8bf5c41809ff3bc283c212, type: 3}
+    - emotion: Happy
+      texture: {fileID: 2800000, guid: 3119764a13af5ec48b74bcb4237a519e, type: 3}
+    - emotion: Neutral
+      texture: {fileID: 2800000, guid: e548693567b8d6647acb405778b50025, type: 3}
+    - emotion: Suprise
+      texture: {fileID: 2800000, guid: 03af335ae0117404cbfae48bf9208004, type: 3}
+  - material: {fileID: 2100000, guid: f9ee9873bab39c040b26412d829353ec, type: 2}
+    textures:
+    - emotion: Angry
+      texture: {fileID: 2800000, guid: 6183e98b61ccd224aac93a25563bec5a, type: 3}
+    - emotion: Anticipation
+      texture: {fileID: 2800000, guid: 7683af8ef54eef148bd7a957b1e85b34, type: 3}
+    - emotion: Disgust
+      texture: {fileID: 2800000, guid: ec2d39ff677ff9c40b74566196f07668, type: 3}
+    - emotion: Fear
+      texture: {fileID: 2800000, guid: 827437e86d5ba804db17fc2a43ab8929, type: 3}
+    - emotion: Happy
+      texture: {fileID: 2800000, guid: 8b018c3bc5c7b484b825807365a703e7, type: 3}
+    - emotion: Neutral
+      texture: {fileID: 2800000, guid: 0e8eb210a03a81c4ea4da103d0f6fe3f, type: 3}
+    - emotion: Suprise
+      texture: {fileID: 2800000, guid: 310678ef0c375ab4eb556804d4e1ecd1, type: 3}
+  - material: {fileID: 2100000, guid: 2b648c7c39e83544fbb7983a50e43dc8, type: 2}
+    textures:
+    - emotion: Angry
+      texture: {fileID: 2800000, guid: 3c5551d3c81c35f41a3e8a2b23656f49, type: 3}
+    - emotion: Anticipation
+      texture: {fileID: 2800000, guid: 69f76698126c70b46b88acab0eb954de, type: 3}
+    - emotion: Disgust
+      texture: {fileID: 2800000, guid: 80dd785f9349a284d855d79060ca67df, type: 3}
+    - emotion: Fear
+      texture: {fileID: 2800000, guid: 034d4649f63c23e4b8252c69def5f7a4, type: 3}
+    - emotion: Happy
+      texture: {fileID: 2800000, guid: cce8d22e785fe244bbe490a358944bf5, type: 3}
+    - emotion: Neutral
+      texture: {fileID: 2800000, guid: 3cdedab49458c3e49826b8610e1fa27c, type: 3}
+    - emotion: Suprise
+      texture: {fileID: 2800000, guid: 8fcb3177453db1a41990e7eb05216402, type: 3}
+  - material: {fileID: 2100000, guid: 45a6de4aedc1949469eec9951b477159, type: 2}
+    textures:
+    - emotion: Angry
+      texture: {fileID: 2800000, guid: 20a6a7a8f32a3194faa166765c32eb08, type: 3}
+    - emotion: Anticipation
+      texture: {fileID: 2800000, guid: 63beb92d4c643694892977a14e8737b6, type: 3}
+    - emotion: Disgust
+      texture: {fileID: 2800000, guid: c16a77e8604d9f64ebad279faa577e7a, type: 3}
+    - emotion: Fear
+      texture: {fileID: 2800000, guid: af7fe16dd2152fe40bccfd994303dd06, type: 3}
+    - emotion: Happy
+      texture: {fileID: 2800000, guid: 00270c5b01a2eb348b1efeb45718eb3f, type: 3}
+    - emotion: Neutral
+      texture: {fileID: 2800000, guid: 9090cebaa5410c0498e4b546c3c1aaf5, type: 3}
+    - emotion: Suprise
+      texture: {fileID: 2800000, guid: 3d6e346bd96ee5c47a575ed9b387e5e1, type: 3}
+  - material: {fileID: 2100000, guid: 06117f4e8cd7ffb4ba97dd9fe0d93140, type: 2}
+    textures:
+    - emotion: Angry
+      texture: {fileID: 2800000, guid: ad2139fb54ddd5e46b3bedae88fdf98e, type: 3}
+    - emotion: Anticipation
+      texture: {fileID: 2800000, guid: 995381f4b973ce547b0f3f233adb1ba6, type: 3}
+    - emotion: Disgust
+      texture: {fileID: 2800000, guid: 0dfb8cb08ca5c4f489c780dfd77e7f3e, type: 3}
+    - emotion: Fear
+      texture: {fileID: 2800000, guid: 1e69385738facbd4b9d0751ef746bdac, type: 3}
+    - emotion: Happy
+      texture: {fileID: 2800000, guid: fde83708d64d39e4e8a9401f17d4d090, type: 3}
+    - emotion: Neutral
+      texture: {fileID: 2800000, guid: 99a97bb2c578ebe4f81d1519db488457, type: 3}
+    - emotion: Suprise
+      texture: {fileID: 2800000, guid: c870a8a5925749d43bcc8c1188e839c0, type: 3}
+  - material: {fileID: 2100000, guid: 35b212571bd31194b915dc7e313d4474, type: 2}
+    textures:
+    - emotion: Angry
+      texture: {fileID: 2800000, guid: 5fda0b8a1390b4d48a157f1d48e5d23a, type: 3}
+    - emotion: Anticipation
+      texture: {fileID: 2800000, guid: 37a7d74282e8bca4db23799746f901e7, type: 3}
+    - emotion: Disgust
+      texture: {fileID: 2800000, guid: d0313674953f2ba4989db2cf80365bff, type: 3}
+    - emotion: Fear
+      texture: {fileID: 2800000, guid: 2eb196c01d653754a8836f5faa55715b, type: 3}
+    - emotion: Happy
+      texture: {fileID: 2800000, guid: 84f94189338e7304d95d89171aad3440, type: 3}
+    - emotion: Neutral
+      texture: {fileID: 2800000, guid: ec1e90896162b2f49b38808d7b2a7f92, type: 3}
+    - emotion: Suprise
+      texture: {fileID: 2800000, guid: cfa525720acccf342a4dedf7063e0648, type: 3}
+  - material: {fileID: 2100000, guid: 3ecdc0e5ef9e47d429da3c30f0011c29, type: 2}
+    textures:
+    - emotion: Angry
+      texture: {fileID: 2800000, guid: 323eb0dbdf0d77b4ca7190a94fee9727, type: 3}
+    - emotion: Anticipation
+      texture: {fileID: 2800000, guid: 0d1124edcdb33854eada7a00ea40bb01, type: 3}
+    - emotion: Disgust
+      texture: {fileID: 2800000, guid: 5fbffb8fa23aa414d89ad5541ea9d60a, type: 3}
+    - emotion: Fear
+      texture: {fileID: 2800000, guid: 5e6f79cdb0c37e34880a2477df564608, type: 3}
+    - emotion: Happy
+      texture: {fileID: 2800000, guid: 9bda3ba6f79fbc44593b2652b251a545, type: 3}
+    - emotion: Neutral
+      texture: {fileID: 2800000, guid: 80759956e5b4e7a46ad66e9e3b405dfa, type: 3}
+    - emotion: Suprise
+      texture: {fileID: 2800000, guid: 94d34eaefe23c1f4ba9a6b58e933e1b1, type: 3}
+  - material: {fileID: 2100000, guid: b2431d434ab643a4ba822580a3477b74, type: 2}
+    textures:
+    - emotion: Angry
+      texture: {fileID: 2800000, guid: 7c8886e9670d96f498e83ac807a54434, type: 3}
+    - emotion: Anticipation
+      texture: {fileID: 2800000, guid: f67f171aba587224388d07978374db14, type: 3}
+    - emotion: Disgust
+      texture: {fileID: 2800000, guid: 087a6fdee5f3fef4da7f9b749ce9e96d, type: 3}
+    - emotion: Fear
+      texture: {fileID: 2800000, guid: 922190586193c4b4ea8eec3a0c2c595a, type: 3}
+    - emotion: Happy
+      texture: {fileID: 2800000, guid: 22c92abe2b0d157488b7d79400a30a4f, type: 3}
+    - emotion: Neutral
+      texture: {fileID: 2800000, guid: 206d92afb140ccf4187fbfcc9e854d91, type: 3}
+    - emotion: Suprise
+      texture: {fileID: 2800000, guid: 86b9da40e802ca743954636a6e2824cc, type: 3}
+  - material: {fileID: 2100000, guid: 4ff50b5e9983d3a44b1a90fb460ee330, type: 2}
+    textures:
+    - emotion: Angry
+      texture: {fileID: 2800000, guid: bb08746b13069dc488e3b13f6c3b318c, type: 3}
+    - emotion: Anticipation
+      texture: {fileID: 2800000, guid: 67fba12c47a0f924992990379dfd8932, type: 3}
+    - emotion: Disgust
+      texture: {fileID: 2800000, guid: bf57d2023e4184e478dd3437a1718d88, type: 3}
+    - emotion: Fear
+      texture: {fileID: 2800000, guid: 4eee494891be43a42878c9048f29cdc8, type: 3}
+    - emotion: Happy
+      texture: {fileID: 2800000, guid: b70020bd4b7383147942145c013c5029, type: 3}
+    - emotion: Neutral
+      texture: {fileID: 2800000, guid: 0284c3eb6b4babe4d9fb6b1850c0e1b6, type: 3}
+    - emotion: Suprise
+      texture: {fileID: 2800000, guid: 577ce514052ff02408064edff8d081a6, type: 3}
+  - material: {fileID: 2100000, guid: 06545cff29e847046b348b629ba17c74, type: 2}
+    textures:
+    - emotion: Angry
+      texture: {fileID: 2800000, guid: 544f8375d187c224ebf4f0c6b4b0bb67, type: 3}
+    - emotion: Anticipation
+      texture: {fileID: 2800000, guid: c24ae679b3450f747bf6f161105652d3, type: 3}
+    - emotion: Disgust
+      texture: {fileID: 2800000, guid: 9b8b156b1ad8510478dd17d3ea20cbbc, type: 3}
+    - emotion: Fear
+      texture: {fileID: 2800000, guid: bcca808ae4c63b8429d0d00efcc04043, type: 3}
+    - emotion: Happy
+      texture: {fileID: 2800000, guid: 0ba6d4753846fed48b099cbbb28d194d, type: 3}
+    - emotion: Neutral
+      texture: {fileID: 2800000, guid: 3f4a3340ae8aaa34f93bdf1b58f686de, type: 3}
+    - emotion: Suprise
+      texture: {fileID: 2800000, guid: 277d841aaba3387418129fb083b64a09, type: 3}
+  - material: {fileID: 2100000, guid: 456ad9f636b35dc43b3f0ed0e8f06bfc, type: 2}
+    textures:
+    - emotion: Angry
+      texture: {fileID: 2800000, guid: c9db5c7adfa3a8e44b5c19daf94b9a1f, type: 3}
+    - emotion: Anticipation
+      texture: {fileID: 2800000, guid: 6d139dbf21badce4680cd10ccc9b75b2, type: 3}
+    - emotion: Disgust
+      texture: {fileID: 2800000, guid: d4e88e55fcbc262488692c19a6488824, type: 3}
+    - emotion: Fear
+      texture: {fileID: 2800000, guid: a00b666ee1592684e9fecd76c449f833, type: 3}
+    - emotion: Happy
+      texture: {fileID: 2800000, guid: e6f9e18f278900843908f174856178e9, type: 3}
+    - emotion: Neutral
+      texture: {fileID: 2800000, guid: 101f8bdd59cde5f4dacfd773082b4e73, type: 3}
+    - emotion: Suprise
+      texture: {fileID: 2800000, guid: 70a1ef6180ddd164cbc1e481e521ae63, type: 3}
+  - material: {fileID: 2100000, guid: 388ce33921ba92b489b4babbc3ed6d6b, type: 2}
+    textures:
+    - emotion: Angry
+      texture: {fileID: 2800000, guid: 9c922598c7b2e704ca98e6530645746d, type: 3}
+    - emotion: Anticipation
+      texture: {fileID: 2800000, guid: 4f924440919210d428ef13de35b29893, type: 3}
+    - emotion: Disgust
+      texture: {fileID: 2800000, guid: 5f78689a41554bc468764aaa875b55d5, type: 3}
+    - emotion: Fear
+      texture: {fileID: 2800000, guid: daefa89751ccb2248a42e9f5cebdcc40, type: 3}
+    - emotion: Happy
+      texture: {fileID: 2800000, guid: ded7c3a9aaf51d44e9ac286d89655da7, type: 3}
+    - emotion: Neutral
+      texture: {fileID: 2800000, guid: b722d3f715d43294cabb6f492e9472c6, type: 3}
+    - emotion: Suprise
+      texture: {fileID: 2800000, guid: 44720a961af05514281bb5f5df48737f, type: 3}
+  - material: {fileID: 2100000, guid: 25ff59bd571bcca42b8d1c56f9b704bf, type: 2}
+    textures:
+    - emotion: Angry
+      texture: {fileID: 2800000, guid: b56f9306b47350243b5e1114c978a495, type: 3}
+    - emotion: Anticipation
+      texture: {fileID: 2800000, guid: 1af694b90d6feab46b4c9a9929fb071a, type: 3}
+    - emotion: Disgust
+      texture: {fileID: 2800000, guid: 6ff268c73c626994f8cae0ed19f74951, type: 3}
+    - emotion: Fear
+      texture: {fileID: 2800000, guid: b67b63f1faa2de24bb67dc6ddfd5ed0d, type: 3}
+    - emotion: Happy
+      texture: {fileID: 2800000, guid: 89ad97366783b64478c50cbaa9aa35e4, type: 3}
+    - emotion: Neutral
+      texture: {fileID: 2800000, guid: 20a27a2bc5a71794082c6e9da5f440a4, type: 3}
+    - emotion: Suprise
+      texture: {fileID: 2800000, guid: 29b61ddfdb35f98469363ef93b91e695, type: 3}
+  - material: {fileID: 2100000, guid: 04623e3eb8643864e81c72ab47ed5625, type: 2}
+    textures:
+    - emotion: Angry
+      texture: {fileID: 2800000, guid: b771499ca0be6ef4e93d756a4e9d68c2, type: 3}
+    - emotion: Anticipation
+      texture: {fileID: 2800000, guid: 8af696dcc9fb86f43a02a7f8427abde0, type: 3}
+    - emotion: Disgust
+      texture: {fileID: 2800000, guid: f644724d03b8e9f4396dc16de65de5e1, type: 3}
+    - emotion: Fear
+      texture: {fileID: 2800000, guid: abe765dcec30d6e49afc6f985bb74b46, type: 3}
+    - emotion: Happy
+      texture: {fileID: 2800000, guid: 193854663bffc034aae0340fb53f2486, type: 3}
+    - emotion: Neutral
+      texture: {fileID: 2800000, guid: 196560a8a7764eb41b3d60b28d2d2755, type: 3}
+    - emotion: Suprise
+      texture: {fileID: 2800000, guid: 95786d46d81b4ab489cff16c2c29a1ae, type: 3}
+  - material: {fileID: 2100000, guid: 5a160c605d0cb4b4da7cefda4f151ee4, type: 2}
+    textures:
+    - emotion: Angry
+      texture: {fileID: 2800000, guid: a7947ef4b1d96444ca55520b121118b2, type: 3}
+    - emotion: Anticipation
+      texture: {fileID: 2800000, guid: 7da30983ee23aa847ae26fff80ee6216, type: 3}
+    - emotion: Disgust
+      texture: {fileID: 2800000, guid: 9af44e2d2bf595345a42977bc0fe35e5, type: 3}
+    - emotion: Fear
+      texture: {fileID: 2800000, guid: d9eeb342398972343a53ff395f6e0818, type: 3}
+    - emotion: Happy
+      texture: {fileID: 2800000, guid: 3572af4308781824183945d2522b7fdb, type: 3}
+    - emotion: Neutral
+      texture: {fileID: 2800000, guid: 1fb126aea3213d149b2ff809fc11222d, type: 3}
+    - emotion: Suprise
+      texture: {fileID: 2800000, guid: 835ecc21bcb3a924393e06055bf33821, type: 3}
+  - material: {fileID: 2100000, guid: 064ad889ca013a145909f4c280520cfb, type: 2}
+    textures:
+    - emotion: Angry
+      texture: {fileID: 2800000, guid: c06306299b27b3840b03e66e55c0425d, type: 3}
+    - emotion: Anticipation
+      texture: {fileID: 2800000, guid: dde57be89614c02478a244194fa06a85, type: 3}
+    - emotion: Disgust
+      texture: {fileID: 2800000, guid: f8631f8683cdd9e4c9064a9075f7b624, type: 3}
+    - emotion: Fear
+      texture: {fileID: 2800000, guid: e92c9d0ffd40e794883ad6326cb66dd9, type: 3}
+    - emotion: Happy
+      texture: {fileID: 2800000, guid: 8a40852501d26a941bc1df1a72403e07, type: 3}
+    - emotion: Neutral
+      texture: {fileID: 2800000, guid: 5c3abc3e37a90dc44920acd43affd968, type: 3}
+    - emotion: Suprise
+      texture: {fileID: 2800000, guid: 9258b589a68c9ec4f9d5a0af356ddb47, type: 3}
+  - material: {fileID: 2100000, guid: 8244f72380d05a445ba9e2fb5b27a1a5, type: 2}
+    textures:
+    - emotion: Angry
+      texture: {fileID: 2800000, guid: d964da983676ae040a25836cd0eb1836, type: 3}
+    - emotion: Anticipation
+      texture: {fileID: 2800000, guid: b8135d58c87c1be4c84de1cced61cedf, type: 3}
+    - emotion: Disgust
+      texture: {fileID: 2800000, guid: 68603f2dd8cccb84ab9d46a87a590ea4, type: 3}
+    - emotion: Fear
+      texture: {fileID: 2800000, guid: e68076fd10fae544fa83f78654bc86c0, type: 3}
+    - emotion: Happy
+      texture: {fileID: 2800000, guid: c022128f5cbcd7b4c86fbb3e8ae0b187, type: 3}
+    - emotion: Neutral
+      texture: {fileID: 2800000, guid: 17f9fc1d7f0f5d849983835bada183fb, type: 3}
+    - emotion: Suprise
+      texture: {fileID: 2800000, guid: c3f2b4741e7b9c044b8adf1091b1c334, type: 3}
+  - material: {fileID: 2100000, guid: e4b1641173114fd499d1262488d75c08, type: 2}
+    textures:
+    - emotion: Angry
+      texture: {fileID: 2800000, guid: e31e5202de56c4d49944c445b7c7bdca, type: 3}
+    - emotion: Anticipation
+      texture: {fileID: 2800000, guid: 5291393c0dfb5634aa816ff3d3a0f5a4, type: 3}
+    - emotion: Disgust
+      texture: {fileID: 2800000, guid: ed586bfc733333c45b0075e5399380f8, type: 3}
+    - emotion: Fear
+      texture: {fileID: 2800000, guid: 2cdae2ac301e0284ab1fb94b00f0275f, type: 3}
+    - emotion: Happy
+      texture: {fileID: 2800000, guid: 2ee38c4c24311674cb3b441b6a816f1e, type: 3}
+    - emotion: Neutral
+      texture: {fileID: 2800000, guid: 1de9712627fd3f54e8a3b9fdbab43bd7, type: 3}
+    - emotion: Suprise
+      texture: {fileID: 2800000, guid: 72ff2efc6765123479dbaab11dcf7caf, type: 3}
+  - material: {fileID: 2100000, guid: 715201f8a1909b44c8cab98857f6d325, type: 2}
+    textures:
+    - emotion: Angry
+      texture: {fileID: 2800000, guid: c4fc41ecdcf68544da3084da561acbb2, type: 3}
+    - emotion: Anticipation
+      texture: {fileID: 2800000, guid: 792a2976739dcee4c8cad46360ea0141, type: 3}
+    - emotion: Disgust
+      texture: {fileID: 2800000, guid: 8977c8d30351ae749ad05ee1a076dea8, type: 3}
+    - emotion: Fear
+      texture: {fileID: 2800000, guid: 40fb9e7f671f9114abcf7daf5e789ba4, type: 3}
+    - emotion: Happy
+      texture: {fileID: 2800000, guid: f5588ff1d2e792840b36001e21eed4fd, type: 3}
+    - emotion: Neutral
+      texture: {fileID: 2800000, guid: 1c533a5386b1dfd4699c62ed5ec8f17a, type: 3}
+    - emotion: Suprise
+      texture: {fileID: 2800000, guid: a58595946e02a0d429c4fade178200cc, type: 3}
+  - material: {fileID: 2100000, guid: 0c52cf7799b149d4187c764b83b910a0, type: 2}
+    textures:
+    - emotion: Angry
+      texture: {fileID: 2800000, guid: d2cee98754aa23d4f928e78260aafc2a, type: 3}
+    - emotion: Anticipation
+      texture: {fileID: 2800000, guid: 5d530071036ea3945b29b4a166ef5e61, type: 3}
+    - emotion: Disgust
+      texture: {fileID: 2800000, guid: 3e2811eb8b2343249b4792d6a9bfbfce, type: 3}
+    - emotion: Fear
+      texture: {fileID: 2800000, guid: 113e49e44c3e5164bb88b09455ac74ed, type: 3}
+    - emotion: Happy
+      texture: {fileID: 2800000, guid: 7cf1fa4ca84a0a042918e01ff598778d, type: 3}
+    - emotion: Neutral
+      texture: {fileID: 2800000, guid: 9ced2ee6c56291142a4e233f8c2b59cf, type: 3}
+    - emotion: Suprise
+      texture: {fileID: 2800000, guid: 792f8e77b66041f47bc8ee4b8f675fde, type: 3}
+  - material: {fileID: 2100000, guid: 3396e8db830e3ca40afbf69d69e986b7, type: 2}
+    textures:
+    - emotion: Angry
+      texture: {fileID: 2800000, guid: ddc2459e54c2dc8498f9ce39ae698402, type: 3}
+    - emotion: Anticipation
+      texture: {fileID: 2800000, guid: d9be0878b5270934c83c67d3d7793724, type: 3}
+    - emotion: Disgust
+      texture: {fileID: 2800000, guid: 3dd09a31db8f8c54b829c9fac3d6a976, type: 3}
+    - emotion: Fear
+      texture: {fileID: 2800000, guid: 49a5214b731ca15439fc196c0be8cf59, type: 3}
+    - emotion: Happy
+      texture: {fileID: 2800000, guid: 22814ce2ef1e6354680a8599c2654afe, type: 3}
+    - emotion: Neutral
+      texture: {fileID: 2800000, guid: 14a74404fa5347141a3ffedce3598c8e, type: 3}
+    - emotion: Suprise
+      texture: {fileID: 2800000, guid: 1f4924fcbf301464c9fdd291950c1f3d, type: 3}
+  - material: {fileID: 2100000, guid: c9379f7ca4c95e34b8edf7f446bab831, type: 2}
+    textures:
+    - emotion: Angry
+      texture: {fileID: 2800000, guid: 06eb9bf8fb212544683793e48aef7da7, type: 3}
+    - emotion: Anticipation
+      texture: {fileID: 2800000, guid: f0bcf4c75b90750499f4c55bdcc08fc3, type: 3}
+    - emotion: Disgust
+      texture: {fileID: 2800000, guid: 7f4b0b0acb217bd4684844211a53ebd0, type: 3}
+    - emotion: Fear
+      texture: {fileID: 2800000, guid: eec873c0814ccb4419c23879fb4dc6fc, type: 3}
+    - emotion: Happy
+      texture: {fileID: 2800000, guid: b5910212375c33c48954dd5d53508a8c, type: 3}
+    - emotion: Neutral
+      texture: {fileID: 2800000, guid: eec873c0814ccb4419c23879fb4dc6fc, type: 3}
+    - emotion: Suprise
+      texture: {fileID: 2800000, guid: fa0afefa1b580f74c8d5e2bf88eedf6f, type: 3}
+  - material: {fileID: 2100000, guid: 71fd682d086e878479aad1dbb9385319, type: 2}
+    textures:
+    - emotion: Angry
+      texture: {fileID: 2800000, guid: 265b6d9e4bcf44849ad9265498ea7935, type: 3}
+    - emotion: Anticipation
+      texture: {fileID: 2800000, guid: ea046edcffdebb1479190253922cb028, type: 3}
+    - emotion: Disgust
+      texture: {fileID: 2800000, guid: f2649336e15d0f44db4cc549653cbc1d, type: 3}
+    - emotion: Fear
+      texture: {fileID: 2800000, guid: 2b610121e3300a543916b9bfd3b5549a, type: 3}
+    - emotion: Happy
+      texture: {fileID: 2800000, guid: 36dccc5805be8904ab2a5558d3f7d1b4, type: 3}
+    - emotion: Neutral
+      texture: {fileID: 2800000, guid: dc1c0e9358120bf469405bfd1c6c7ae9, type: 3}
+    - emotion: Suprise
+      texture: {fileID: 2800000, guid: 79a7d49651511634ba2b697728873497, type: 3}
   transitionDuration: 1
+  lightingPresets: []
+  directionalLight: {fileID: 0}
 --- !u!1001 &1107302789
 PrefabInstance:
   m_ObjectHideFlags: 0
