@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571328, b: 0.3069217, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2413,7 +2413,7 @@ MonoBehaviour:
     - emotion: Neutral
       texture: {fileID: 2800000, guid: 87deb948043696e46b0196b9d6f06ea8, type: 3}
     - emotion: Suprise
-      texture: {fileID: 2800000, guid: 76e216e55f7ea1a4b850767b221fbbfe, type: 3}
+      texture: {fileID: 2800000, guid: dd437439f51988540b21f5145abfc2d9, type: 3}
   - material: {fileID: 2100000, guid: 27b34b070a7c8264ea5de3d29b64d1cf, type: 2}
     textures:
     - emotion: Anger
@@ -2425,27 +2425,91 @@ MonoBehaviour:
     - emotion: Fear
       texture: {fileID: 2800000, guid: 6466b30b61c50e04886e5361c2b0bbaa, type: 3}
     - emotion: Happy
-      texture: {fileID: 2800000, guid: 52b69481e83fb964bb1ee2a18da41c0b, type: 3}
+      texture: {fileID: 2800000, guid: c1a33fc809a0af941ba163fa8f75e608, type: 3}
     - emotion: Neutral
       texture: {fileID: 2800000, guid: 59462c3ce0293bb4fb05be12e7191f88, type: 3}
     - emotion: Suprise
-      texture: {fileID: 2800000, guid: c1a33fc809a0af941ba163fa8f75e608, type: 3}
+      texture: {fileID: 2800000, guid: 52b69481e83fb964bb1ee2a18da41c0b, type: 3}
   - material: {fileID: 2100000, guid: 28cb45eff59247d47aa0452c626a4a3e, type: 2}
     textures:
     - emotion: Anger
-      texture: {fileID: 2800000, guid: e7bc25dcc1daa32419cdabd0709001e7, type: 3}
+      texture: {fileID: 2800000, guid: 0dd67aa331ad04c4f90d2f503724d36b, type: 3}
     - emotion: Anticipation
-      texture: {fileID: 2800000, guid: a2e961f41a78a104ab35f51eebc17cd0, type: 3}
+      texture: {fileID: 2800000, guid: 6e0e2e6872ae16e47a830cc2262c13da, type: 3}
     - emotion: Disgust
-      texture: {fileID: 2800000, guid: a6b477aba995eab479be78c639f4a10b, type: 3}
+      texture: {fileID: 2800000, guid: f801109d4c3cd454c86b32936a470386, type: 3}
     - emotion: Fear
-      texture: {fileID: 2800000, guid: 6466b30b61c50e04886e5361c2b0bbaa, type: 3}
+      texture: {fileID: 2800000, guid: 0f499009d3af9754f937b45a052f28e7, type: 3}
     - emotion: Happy
-      texture: {fileID: 2800000, guid: 52b69481e83fb964bb1ee2a18da41c0b, type: 3}
+      texture: {fileID: 2800000, guid: 04a450375eb33674cb324e6a2dfab83b, type: 3}
     - emotion: Neutral
-      texture: {fileID: 2800000, guid: 59462c3ce0293bb4fb05be12e7191f88, type: 3}
+      texture: {fileID: 2800000, guid: c478f620fc32d74499380398f4ea7ba9, type: 3}
     - emotion: Suprise
-      texture: {fileID: 2800000, guid: c1a33fc809a0af941ba163fa8f75e608, type: 3}
+      texture: {fileID: 2800000, guid: 6080317145bf01b4aae88b3421c3355e, type: 3}
+  - material: {fileID: 2100000, guid: 2049d4616fadc504ca1c797597ce7899, type: 2}
+    textures:
+    - emotion: Anger
+      texture: {fileID: 2800000, guid: bc2fe03e538620c4c9a6ed6aba120792, type: 3}
+    - emotion: Anticipation
+      texture: {fileID: 2800000, guid: 87794acf877e8084bb49fa052be4990f, type: 3}
+    - emotion: Disgust
+      texture: {fileID: 2800000, guid: ea3b07f5941aa854cb840bcab644f530, type: 3}
+    - emotion: Fear
+      texture: {fileID: 2800000, guid: 632a69ccdc04f1d469afabe205b71246, type: 3}
+    - emotion: Happy
+      texture: {fileID: 2800000, guid: 48ea3bc9ac22bb945b9514f7668fc43b, type: 3}
+    - emotion: Neutral
+      texture: {fileID: 2800000, guid: 21a95973475087047b28235fcc07face, type: 3}
+    - emotion: Suprise
+      texture: {fileID: 2800000, guid: 88acb25ca7688ae459405c6862a37fba, type: 3}
+  - material: {fileID: 2100000, guid: d7bfe969bb8d1184aae48ae0c19686d0, type: 2}
+    textures:
+    - emotion: Anger
+      texture: {fileID: 2800000, guid: d03fbf7da0f32114db283440b117481c, type: 3}
+    - emotion: Anticipation
+      texture: {fileID: 2800000, guid: 42b79161cea661a48bfcdf004c6bc64b, type: 3}
+    - emotion: Disgust
+      texture: {fileID: 2800000, guid: 81d94758ad1452746946849598328a75, type: 3}
+    - emotion: Fear
+      texture: {fileID: 2800000, guid: c55e7c8db75271446981198020262410, type: 3}
+    - emotion: Happy
+      texture: {fileID: 2800000, guid: aa663a90b6c81b044aa5b37843f34e5d, type: 3}
+    - emotion: Neutral
+      texture: {fileID: 2800000, guid: 68f0bbe42c4fc2141bb368d110919cd3, type: 3}
+    - emotion: Suprise
+      texture: {fileID: 2800000, guid: 684209d56d1f65c43af1b749d3e90bdb, type: 3}
+  - material: {fileID: 2100000, guid: f7b0172bb491c3c40a7b5f7cc46fa955, type: 2}
+    textures:
+    - emotion: Anger
+      texture: {fileID: 2800000, guid: 36ab6b06a20a9b44e8896644daed97cf, type: 3}
+    - emotion: Anticipation
+      texture: {fileID: 2800000, guid: 6494d073e48782b4782f2c5539203faa, type: 3}
+    - emotion: Disgust
+      texture: {fileID: 2800000, guid: 316b03b0c394b474db80ab82aac02cb5, type: 3}
+    - emotion: Fear
+      texture: {fileID: 2800000, guid: 6afc7e0f35f072748a799e62e8313f67, type: 3}
+    - emotion: Happy
+      texture: {fileID: 2800000, guid: e289395f1231dc2488ed67e95a3cfa70, type: 3}
+    - emotion: Neutral
+      texture: {fileID: 2800000, guid: fd9b6149ffd3a6a49acffc4ace7571d9, type: 3}
+    - emotion: Suprise
+      texture: {fileID: 2800000, guid: 7336351678c37c94189fc0ed131e386a, type: 3}
+  - material: {fileID: 2100000, guid: 68577354a19c5bd4fbfaa8cce3c67364, type: 2}
+    textures:
+    - emotion: Anger
+      texture: {fileID: 2800000, guid: 0c99ac7e899334746b0a2578bf0faa1d, type: 3}
+    - emotion: Anticipation
+      texture: {fileID: 2800000, guid: b62bce66d81558f4aadb732abb0c2cb6, type: 3}
+    - emotion: Disgust
+      texture: {fileID: 2800000, guid: 279b5dc3e3d6848468b7341f3440adf1, type: 3}
+    - emotion: Fear
+      texture: {fileID: 2800000, guid: 46d3098d50d0c8245b4708f97dd11d4d, type: 3}
+    - emotion: Happy
+      texture: {fileID: 2800000, guid: e6dceaf4ed2320d40bb13b9da5f107d3, type: 3}
+    - emotion: Neutral
+      texture: {fileID: 2800000, guid: 0c5625d5966f6b5489cca9a1c51a9660, type: 3}
+    - emotion: Suprise
+      texture: {fileID: 2800000, guid: 9895dcfe793ac8a46b9ed332aed9f1cc, type: 3}
   transitionDuration: 1
   lightingPresets: []
   directionalLight: {fileID: 0}
