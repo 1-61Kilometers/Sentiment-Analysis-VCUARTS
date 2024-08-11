@@ -30,6 +30,15 @@ public class AudioManagement : MonoBehaviour
     [Tooltip("Neutral")]
     [SerializeField] private AudioSource neutralSource; //7
 
+    [Tooltip("Lonely")]
+    [SerializeField] private AudioSource lonelySource; //8
+
+    [Tooltip("Suprise")]
+    [SerializeField] private AudioSource supriseSource; //9
+
+    [Tooltip("Disgust")]
+    [SerializeField] private AudioSource disgustSource; //10
+
     [Tooltip("Number of Emotions Playing at a Time")]
     [SerializeField] private int emotionWindowSize = 2;
 
@@ -50,7 +59,10 @@ public class AudioManagement : MonoBehaviour
             determinationSource, // 4
             happySource,         // 5
             sadSource,           // 6
-            neutralSource        //7
+            neutralSource,        //7
+            lonelySource,        //8
+            supriseSource,       //9
+            disgustSource       //10
         };
 
         // Initialize the emotion window list
@@ -59,16 +71,16 @@ public class AudioManagement : MonoBehaviour
         // Turn off all audio sources at start
         foreach (var source in audioSources)
         {
-            if (source != null)
+            if (source != null && source.clip != null)
             {
                 source.Stop();
             }
         }
-        if (backgroundSource != null)
+        if (backgroundSource != null && backgroundSource.clip != null)
         {
             StartCoroutine(FadeInAudio(backgroundSource));
         }
-        if (environmentSource!= null)
+        if (environmentSource!= null && environmentSource.clip != null)
         {
             StartCoroutine(FadeInAudio(environmentSource));
         }
@@ -94,7 +106,7 @@ public class AudioManagement : MonoBehaviour
         AudioSource newSource = GetAudioSourceForEmotion(emotion);
 
         // If the new source is not already in the emotion window
-        if (newSource != null && !emotionWindow.Contains(newSource))
+        if (newSource != null && newSource.clip !=null && !emotionWindow.Contains(newSource))
         {
             if (emotionWindow.Count >= emotionWindowSize)
             {
@@ -128,6 +140,12 @@ public class AudioManagement : MonoBehaviour
                 return sadSource;
             case "Neutral":
                 return neutralSource;
+            case "Lonely":
+                return lonelySource;
+            case "Suprise":
+                return supriseSource;
+            case "Disgust":
+                return disgustSource;
             default:
                 return null; // No match found
         }
@@ -135,7 +153,7 @@ public class AudioManagement : MonoBehaviour
 
     private IEnumerator FadeOutAudio(AudioSource audioSource, float fadeDuration = 1.0f)
     {
-        if (audioSource != null)
+        if (audioSource != null && audioSource.clip != null)
         {
             float startVolume = audioSource.volume;
 
@@ -152,7 +170,7 @@ public class AudioManagement : MonoBehaviour
 
     private IEnumerator FadeInAudio(AudioSource audioSource, float fadeDuration = 1.0f)
     {
-        if (audioSource != null)
+        if (audioSource != null && audioSource.clip != null)
         {
             audioSource.volume = 0f;
             audioSource.Play();
