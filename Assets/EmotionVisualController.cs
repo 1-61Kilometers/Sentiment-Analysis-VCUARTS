@@ -193,4 +193,8 @@ public class EmotionVisualController : MonoBehaviour
         directionalLight.color = targetPreset.directionalLightColor;
         directionalLight.intensity = targetPreset.directionalLightIntensity;
     }
+    public List<MaterialTextureSet> GetMaterialTextureSets()
+    {
+        return materialTextureSets;
+    }
 }

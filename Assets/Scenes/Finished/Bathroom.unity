@@ -3769,6 +3769,8 @@ MonoBehaviour:
       texture: {fileID: 2800000, guid: 81f170de4df2e39488e814412bc181f6, type: 3}
     - emotion: Neutral
       texture: {fileID: 2800000, guid: cda8cfa33b61fab43acb3fb96eeb8cf8, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: d3108012d9506f34ca3d69169e7201dc, type: 3}
   - material: {fileID: 2100000, guid: eecb1c352a4efbd4bb16b0ac761b18be, type: 2}
     textures:
     - emotion: Anticipation
@@ -3785,6 +3787,8 @@ MonoBehaviour:
       texture: {fileID: 2800000, guid: ce4f6265ea245ac43816d22cad003c68, type: 3}
     - emotion: Neutral
       texture: {fileID: 2800000, guid: 0e1bcd377bf4e9a478e8f1da15f8a1c5, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: b2373b7451527704e9ec9e96c2a4864c, type: 3}
   - material: {fileID: 2100000, guid: fca71eb831067fa4d93beed84ce509e4, type: 2}
     textures:
     - emotion: Anticipation
@@ -3801,6 +3805,8 @@ MonoBehaviour:
       texture: {fileID: 2800000, guid: d5367a03c366a3f4cb30c2ec4406700d, type: 3}
     - emotion: Neutral
       texture: {fileID: 2800000, guid: d13114d4cefbff247acfbc4b41f1403f, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: a870de9bdddf07c46b356ea30f73779b, type: 3}
   - material: {fileID: 2100000, guid: 26cedf2694c2ae141a5fe17f5b82c91b, type: 2}
     textures:
     - emotion: Anticipation
@@ -3817,6 +3823,8 @@ MonoBehaviour:
       texture: {fileID: 2800000, guid: e5ca6fe8c8ad2b646827e060b09d4c4d, type: 3}
     - emotion: Neutral
       texture: {fileID: 2800000, guid: 17f0ee39ea362184aa1139b6af1e8023, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: ac0e65cbc2eb2724dbd19deb8f05891d, type: 3}
   - material: {fileID: 2100000, guid: 3165a8011c1c96b4b85f55adb28e47e1, type: 2}
     textures:
     - emotion: Anticipation
@@ -3833,6 +3841,8 @@ MonoBehaviour:
       texture: {fileID: 2800000, guid: bf178dcee47674b408ea2763da817e8f, type: 3}
     - emotion: Neutral
       texture: {fileID: 2800000, guid: a13f2c0d911796843b4659e446e374af, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: 3177f82191d951a4abe3325e4aad1f49, type: 3}
   - material: {fileID: 2100000, guid: 48718675860dbdf49b094586ae930cdf, type: 2}
     textures:
     - emotion: Anticipation
@@ -3848,7 +3858,9 @@ MonoBehaviour:
     - emotion: Suprise
       texture: {fileID: 2800000, guid: a3af04ca496e33745bd68d6ea809d9a5, type: 3}
     - emotion: Neutral
-      texture: {fileID: 2800000, guid: 2a89fb49668ae6c4291095be434fd96b, type: 3}
+      texture: {fileID: 2800000, guid: 948619faf93441741967fe5984a6bf41, type: 3}
+    - emotion: Sad
+      texture: {fileID: 0}
   - material: {fileID: 2100000, guid: 33f0207ad59ee6e44a60be0c1f92c250, type: 2}
     textures:
     - emotion: Anticipation
@@ -3865,6 +3877,8 @@ MonoBehaviour:
       texture: {fileID: 2800000, guid: f2da6b59d907f2243b64743fafe9b34d, type: 3}
     - emotion: Neutral
       texture: {fileID: 2800000, guid: 8a60dae3f50ab9843ac05a16c5f1be79, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: b8e14c4f237127a489d20a15e1cd0d48, type: 3}
   - material: {fileID: 2100000, guid: a9211f3fbe0bfc745976b52279ee6dc6, type: 2}
     textures:
     - emotion: Anticipation
@@ -3881,6 +3895,8 @@ MonoBehaviour:
       texture: {fileID: 2800000, guid: 9d176f3a3ecd81540b76ec24218b18d9, type: 3}
     - emotion: Neutral
       texture: {fileID: 2800000, guid: de5f453a8fedf024c817b6753b55128f, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: fa8e881f6f84ab144a03df5d9d8aad85, type: 3}
   - material: {fileID: 2100000, guid: 8a2f9d26895c5ba40b0b624047bc3ccb, type: 2}
     textures:
     - emotion: Anticipation
@@ -3897,6 +3913,8 @@ MonoBehaviour:
       texture: {fileID: 2800000, guid: 8e44135a94e472f4a8963e5b262240f5, type: 3}
     - emotion: Neutral
       texture: {fileID: 2800000, guid: 77b305b58f5fe7b4f89e2819fbb65e18, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: 9ae446f39fd5f1a40b8c5e673ad02653, type: 3}
   - material: {fileID: 2100000, guid: d2c7645979e3acb49b488b045dd722ca, type: 2}
     textures:
     - emotion: Anticipation
@@ -3913,6 +3931,8 @@ MonoBehaviour:
       texture: {fileID: 2800000, guid: c94dd16fded79e54f8a7653b15e756b3, type: 3}
     - emotion: Neutral
       texture: {fileID: 2800000, guid: a5883bd674064704fbb4f80fe6b7949b, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: b2c26bce0846ed64885e318c4a98c96a, type: 3}
   - material: {fileID: 2100000, guid: 9a9895c073c066d4a9810f017e216f8b, type: 2}
     textures:
     - emotion: Anticipation
@@ -3929,6 +3949,8 @@ MonoBehaviour:
       texture: {fileID: 2800000, guid: 32401e86bd686c44eabb47a8d0dfa5e8, type: 3}
     - emotion: Neutral
       texture: {fileID: 2800000, guid: 63de113945ddf89418bc1a74dcf8730a, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: 68ad9b9ccd3d53c4a96b5e9f7dd79415, type: 3}
   - material: {fileID: 2100000, guid: 9c0b0c9360f9e9346b317bcedeaa9359, type: 2}
     textures:
     - emotion: Anticipation
@@ -3945,6 +3967,8 @@ MonoBehaviour:
       texture: {fileID: 2800000, guid: 62030cb33b00401488cc559610ace0c0, type: 3}
     - emotion: Neutral
       texture: {fileID: 2800000, guid: 66c0ed3653155da4ea1212e2fb76cea8, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: f04242ae7516c6249882a54d20bb54ed, type: 3}
   - material: {fileID: 2100000, guid: 0161f7d24d532d142959a9421203fa6b, type: 2}
     textures:
     - emotion: Anticipation
@@ -3961,6 +3985,8 @@ MonoBehaviour:
       texture: {fileID: 2800000, guid: 8bba36a498799fa459d3a13c11edd48d, type: 3}
     - emotion: Neutral
       texture: {fileID: 2800000, guid: e8ea0cc2b32ca32429d162739de0ebd2, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: eba1f4baa5d18754c8d9c3e6bc7eb302, type: 3}
   - material: {fileID: 2100000, guid: dca899cd698e0a24285b97a7f91b17d1, type: 2}
     textures:
     - emotion: Anticipation
@@ -3977,6 +4003,8 @@ MonoBehaviour:
       texture: {fileID: 2800000, guid: 4f366195288ee214eaebee8700116621, type: 3}
     - emotion: Neutral
       texture: {fileID: 2800000, guid: f7a52134b721d3540900d4ac7d71acbf, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: 5e7d99b513fb060408bd33ce55e5eab3, type: 3}
   - material: {fileID: 2100000, guid: 6f8abad24bfeadd43a272b2e78564b66, type: 2}
     textures:
     - emotion: Anticipation
@@ -3993,6 +4021,8 @@ MonoBehaviour:
       texture: {fileID: 2800000, guid: 1b70a4b516370ff41ba11d1818b1d1f2, type: 3}
     - emotion: Neutral
       texture: {fileID: 2800000, guid: 39544ff0c107a0944913a8b5fd07640e, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: 25272c0dd8061b747a664d1504f78abd, type: 3}
   - material: {fileID: 2100000, guid: 4b4431e72bdec134182fdbc4f03e5dd3, type: 2}
     textures:
     - emotion: Anticipation
@@ -4009,6 +4039,8 @@ MonoBehaviour:
       texture: {fileID: 2800000, guid: 414a93a3597f4ce4180a10500d14c36b, type: 3}
     - emotion: Neutral
       texture: {fileID: 2800000, guid: 3969f7aa2564dd94c947230f97f6db1b, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: cb023a47c2612404c82e6fcc9caa2c9b, type: 3}
   transitionDuration: 1
   lightingPresets: []
   directionalLight: {fileID: 0}

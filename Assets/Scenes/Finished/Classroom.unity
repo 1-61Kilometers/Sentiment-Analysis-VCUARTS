@@ -4010,6 +4010,8 @@ MonoBehaviour:
       texture: {fileID: 2800000, guid: 500cf8107395f9544a9d346d86630c9f, type: 3}
     - emotion: Suprise
       texture: {fileID: 2800000, guid: fe5b4d9a52781734a80ce9664e8d25f3, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: 107788c37e22eaf449b2222b5c03e0b4, type: 3}
   - material: {fileID: 2100000, guid: f10eb9c09da36684f8bc5663c59f6bb7, type: 2}
     textures:
     - emotion: Anger
@@ -4026,6 +4028,8 @@ MonoBehaviour:
       texture: {fileID: 2800000, guid: 29ceb6a542a907641acc1e4de67d4fdc, type: 3}
     - emotion: Suprise
       texture: {fileID: 2800000, guid: b54041e811ebfb44586518cd7e563a93, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: 69c4fed4baae1b64f976eb94d588ff53, type: 3}
   - material: {fileID: 2100000, guid: 82661306a7b60d046b805b476a64fb92, type: 2}
     textures:
     - emotion: Anger
@@ -4042,6 +4046,8 @@ MonoBehaviour:
       texture: {fileID: 2800000, guid: a01af4b8ff8480342a0e74bb7ee6a8e6, type: 3}
     - emotion: Suprise
       texture: {fileID: 2800000, guid: c862ca2ae0ab36543a1e4af86c300f03, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: 00c5b5e99a409f940b7020f066066dc3, type: 3}
   - material: {fileID: 2100000, guid: e2dc5f4c8ea92174d870f169d5eee3b9, type: 2}
     textures:
     - emotion: Anger
@@ -4058,6 +4064,8 @@ MonoBehaviour:
       texture: {fileID: 2800000, guid: c62f9d34220ce024ea2a39557a4a3349, type: 3}
     - emotion: Suprise
       texture: {fileID: 2800000, guid: 192281785f1573a418616579d33048aa, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: 95c26b0758d79cb45bff5b5e41b13d73, type: 3}
   - material: {fileID: 2100000, guid: bf1a87e87e6b3744e9aa05fae7933fee, type: 2}
     textures:
     - emotion: Anger
@@ -4074,6 +4082,8 @@ MonoBehaviour:
       texture: {fileID: 2800000, guid: de41bdc64365b5a43b81a02014f71805, type: 3}
     - emotion: Suprise
       texture: {fileID: 2800000, guid: f59a704de73018c438cc93b195cd5f4d, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: 0a89bbffb5bbaf44ab1c59a3322505b5, type: 3}
   - material: {fileID: 2100000, guid: 34cd5f77ee49bc14ca499023f3dfcb77, type: 2}
     textures:
     - emotion: Anger
@@ -4090,6 +4100,8 @@ MonoBehaviour:
       texture: {fileID: 2800000, guid: 708a1bd4e19e13045a6236e47f884202, type: 3}
     - emotion: Suprise
       texture: {fileID: 2800000, guid: 7963309dbf112764db719b187504ea87, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: fa2f77222eb93a3408a5e03d6bbad9a1, type: 3}
   - material: {fileID: 2100000, guid: 60310d2ac641e82498832cfc002ef241, type: 2}
     textures:
     - emotion: Anger
@@ -4106,6 +4118,8 @@ MonoBehaviour:
       texture: {fileID: 2800000, guid: 19dac99389405d94d9793206c5473f71, type: 3}
     - emotion: Suprise
       texture: {fileID: 2800000, guid: b36b62cdd3be4f44f92db8d15e4adf20, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: 1e141c1750473a045a490d7905899d7e, type: 3}
   - material: {fileID: 2100000, guid: 5d0d468fc5bdfd949b6b714163053b20, type: 2}
     textures:
     - emotion: Anger
@@ -4122,6 +4136,8 @@ MonoBehaviour:
       texture: {fileID: 2800000, guid: f8f221fe290852245a87ca8a87bb62ca, type: 3}
     - emotion: Suprise
       texture: {fileID: 2800000, guid: d92ab108852ec86448e50a237cf0885f, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: 20050a69ed3f1204cb844d8733498d15, type: 3}
   - material: {fileID: 2100000, guid: 13a9753ce9552a34fa53a2669d3d95e2, type: 2}
     textures:
     - emotion: Anger
@@ -4138,6 +4154,8 @@ MonoBehaviour:
       texture: {fileID: 2800000, guid: cfa556d9e3cd086479cd172d0a49f0f7, type: 3}
     - emotion: Suprise
       texture: {fileID: 2800000, guid: b411fb6c88bf7ed448224446130856c4, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: a1c55e45eda35074d88e0a394919474a, type: 3}
   - material: {fileID: 2100000, guid: 1c252e72056d2ca41be65e2d142e8803, type: 2}
     textures:
     - emotion: Anger
@@ -4154,6 +4172,8 @@ MonoBehaviour:
       texture: {fileID: 2800000, guid: 63bed86ac83fc8342ba746db9091ca98, type: 3}
     - emotion: Suprise
       texture: {fileID: 2800000, guid: c37790b44acdc584e9c4da21ec5aaeff, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: 7aaa1735e5aa6284a837e3ad848565fb, type: 3}
   - material: {fileID: 2100000, guid: 02ccc096438f942469959a408fc9bfbb, type: 2}
     textures:
     - emotion: Anger
@@ -4170,6 +4190,8 @@ MonoBehaviour:
       texture: {fileID: 2800000, guid: 5e9fbf9ccc83bcf45a3be01a335593c2, type: 3}
     - emotion: Suprise
       texture: {fileID: 2800000, guid: 9e2555026e39f7e4d8cd31f4aac8f39d, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: 12943abb803fa4c46bbffefc631dec24, type: 3}
   - material: {fileID: 2100000, guid: 22a101fed0267a9489476543b40197e9, type: 2}
     textures:
     - emotion: Anger
@@ -4186,6 +4208,8 @@ MonoBehaviour:
       texture: {fileID: 2800000, guid: 22d5f364c96c4cc4e8f020b837266290, type: 3}
     - emotion: Suprise
       texture: {fileID: 2800000, guid: f3ec62f04e22aaf40a78cf29bc4ee4a8, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: dfa2b257e001cfb47b69a92afe29c844, type: 3}
   - material: {fileID: 2100000, guid: 520d9107f91dc6b45b5a75da87737094, type: 2}
     textures:
     - emotion: Anger
@@ -4202,6 +4226,8 @@ MonoBehaviour:
       texture: {fileID: 2800000, guid: 60ab9628e8d6f2f44ba768319b09cc44, type: 3}
     - emotion: Suprise
       texture: {fileID: 2800000, guid: e8cb534b2a9043643bb687432cffa9b0, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: f230dafaf82ae5048b793545f0d08e5f, type: 3}
   - material: {fileID: 2100000, guid: 2173669bbabf6f14886210a620049784, type: 2}
     textures:
     - emotion: Anger
@@ -4218,6 +4244,8 @@ MonoBehaviour:
       texture: {fileID: 2800000, guid: 66798a704abd42542aae9bd301d7588f, type: 3}
     - emotion: Suprise
       texture: {fileID: 2800000, guid: c46fafdff7dd57a4cb43c25ad7a5c917, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: 7f25bf2a575b4e349b67148a696e5543, type: 3}
   - material: {fileID: 2100000, guid: 08c133102d1cebe47baa2fd206ecc9c3, type: 2}
     textures:
     - emotion: Anger
@@ -4234,6 +4262,8 @@ MonoBehaviour:
       texture: {fileID: 2800000, guid: 9c5caf2fd4ab6594b979197cba957c96, type: 3}
     - emotion: Suprise
       texture: {fileID: 2800000, guid: 77415c515593c884e8c37ee42afee74b, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: e8e45c74ec098474a87a299794a48860, type: 3}
   - material: {fileID: 2100000, guid: 1beafe8a0e105ac4eb60d8ffcdc3678b, type: 2}
     textures:
     - emotion: Anger
@@ -4250,6 +4280,8 @@ MonoBehaviour:
       texture: {fileID: 2800000, guid: 00836a5ddae8284419aa7d1f5de6cf47, type: 3}
     - emotion: Suprise
       texture: {fileID: 2800000, guid: d61c89b165e63db46934b89060ca07d3, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: e3657b9c96b597f4e8c2a9377b4e703a, type: 3}
   - material: {fileID: 2100000, guid: 472798eac6d6a8246aa081fbd81bea06, type: 2}
     textures:
     - emotion: Anger
@@ -4266,6 +4298,8 @@ MonoBehaviour:
       texture: {fileID: 2800000, guid: 560b4bf6a4a8de047a18ca5a505c5b05, type: 3}
     - emotion: Suprise
       texture: {fileID: 2800000, guid: a7130fe504170ca4d8df3289bd2f918c, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: dd576525d57965543aac3939dd7a4c26, type: 3}
   - material: {fileID: 2100000, guid: eb39c14815b6b79428eef4671af35813, type: 2}
     textures:
     - emotion: Anger
@@ -4282,6 +4316,8 @@ MonoBehaviour:
       texture: {fileID: 2800000, guid: fd5e8c3181bf4244f8aedf8aae7ebb09, type: 3}
     - emotion: Suprise
       texture: {fileID: 2800000, guid: 170e86733ce4ccc43b32e18b77d2c0f2, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: 5cf284b0e1cf72447a079316e778a0e2, type: 3}
   - material: {fileID: 2100000, guid: e9d2de81ea4946d4a801354aad3ffdb3, type: 2}
     textures:
     - emotion: Anger
@@ -4298,6 +4334,8 @@ MonoBehaviour:
       texture: {fileID: 2800000, guid: 86f6cea87fbea2e4aa24902d8a0640de, type: 3}
     - emotion: Suprise
       texture: {fileID: 2800000, guid: b503c7684650c6d4e9a343cb8c254089, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: dfd9a9e12a279a04a9cba63d00894d7c, type: 3}
   - material: {fileID: 2100000, guid: 84d4c77214dc13c41887308845168bbf, type: 2}
     textures:
     - emotion: Anger
@@ -4314,6 +4352,8 @@ MonoBehaviour:
       texture: {fileID: 2800000, guid: ec8dd4045d0dcad44a38ffca3e462cbe, type: 3}
     - emotion: Suprise
       texture: {fileID: 2800000, guid: c9f03b6624619db4baafe434ed0d5c7c, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: b44738e495cc25448b3f37380cd9a608, type: 3}
   - material: {fileID: 2100000, guid: 93344ceea5204904b845ce24bdce8cda, type: 2}
     textures:
     - emotion: Anger
@@ -4330,6 +4370,8 @@ MonoBehaviour:
       texture: {fileID: 2800000, guid: 38c74379687ca5a4da9ea84a37acb8bc, type: 3}
     - emotion: Suprise
       texture: {fileID: 2800000, guid: 4b860dec29818954db5a0a3b3c73dfb9, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: 74c0b2a1cbffc0d4b97dcaf77f9ef25a, type: 3}
   - material: {fileID: 2100000, guid: c95cac332bc136c428dcb55ae556ad66, type: 2}
     textures:
     - emotion: Anger
@@ -4346,6 +4388,8 @@ MonoBehaviour:
       texture: {fileID: 2800000, guid: 655964c59abe2374a95f52f93fb97e74, type: 3}
     - emotion: Suprise
       texture: {fileID: 2800000, guid: 9b626a75c819c0d4bb23d79f142b27a5, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: f872965d4573e9e4f914a618acb7eccd, type: 3}
   - material: {fileID: 2100000, guid: 04c2fdd071be32e47b84beaa6ca8ef1c, type: 2}
     textures:
     - emotion: Anger
@@ -4362,6 +4406,8 @@ MonoBehaviour:
       texture: {fileID: 2800000, guid: fbf15681946debc479abbf80db213211, type: 3}
     - emotion: Suprise
       texture: {fileID: 2800000, guid: 02a7152a97a6d3a469e7afa6927a06c8, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: 8453f4ace2ac53748bab16b475fbd4a7, type: 3}
   - material: {fileID: 2100000, guid: d0079b3a68eaacb4d964f89089391c06, type: 2}
     textures:
     - emotion: Anger
@@ -4378,6 +4424,8 @@ MonoBehaviour:
       texture: {fileID: 2800000, guid: 81bb66a1203495940bbb1e9d4afc6ece, type: 3}
     - emotion: Suprise
       texture: {fileID: 2800000, guid: 17255953194e0a24ebabca0c367b0a76, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: a6b349d1e4d212948bf51b30b4b932e3, type: 3}
   - material: {fileID: 2100000, guid: e25a494359f6fea40829e7c6d34e5435, type: 2}
     textures:
     - emotion: Anger
@@ -4394,6 +4442,8 @@ MonoBehaviour:
       texture: {fileID: 2800000, guid: dafadefee5ecad94ba6bb20ea60487d4, type: 3}
     - emotion: Suprise
       texture: {fileID: 2800000, guid: 3d59ba0efa2cf35499e3bcadb137f31d, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: 4a0816ea78a7be9469a0c9a7385748e8, type: 3}
   - material: {fileID: 2100000, guid: 2393b5e4e1dd3fb4cbb75bcf0070c074, type: 2}
     textures:
     - emotion: Anger
@@ -4410,6 +4460,8 @@ MonoBehaviour:
       texture: {fileID: 2800000, guid: 96475a47912dc6b45bf17c169b63850b, type: 3}
     - emotion: Suprise
       texture: {fileID: 2800000, guid: f72a16301fdbeef43bbed453e3f97bf7, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: 62bccb4297ab59248bf13ffc3a2f9857, type: 3}
   - material: {fileID: 2100000, guid: da0138098461c8349bba4394c258e00f, type: 2}
     textures:
     - emotion: Anger
@@ -4426,6 +4478,8 @@ MonoBehaviour:
       texture: {fileID: 2800000, guid: 97d8d44c873908b469d8e3d3f3096280, type: 3}
     - emotion: Suprise
       texture: {fileID: 2800000, guid: b9115c5004f9a084887581cdb148a110, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: 408e423f121e74542a2abcb57f988f41, type: 3}
   - material: {fileID: 2100000, guid: 6b0ab447bd2500b4abf33e721e29569d, type: 2}
     textures:
     - emotion: Anger
@@ -4439,9 +4493,11 @@ MonoBehaviour:
     - emotion: Happy
       texture: {fileID: 2800000, guid: f21a1acf7d0f089468563623806d3a10, type: 3}
     - emotion: Neutral
-      texture: {fileID: 2800000, guid: c52f970f327426c418fea1d97bfbd9a7, type: 3}
+      texture: {fileID: 2800000, guid: 87d84ba1a33a1af4bb39a5b0a45cb7b8, type: 3}
     - emotion: Suprise
       texture: {fileID: 2800000, guid: 8d84e72c13aa5b94790dd7d7aabec769, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: c52f970f327426c418fea1d97bfbd9a7, type: 3}
   - material: {fileID: 2100000, guid: ec8b61c7a4e7ce549b726a341d9abf6f, type: 2}
     textures:
     - emotion: Anger
@@ -4458,6 +4514,8 @@ MonoBehaviour:
       texture: {fileID: 2800000, guid: f568a33b95ba50d4683915d9a6359fa2, type: 3}
     - emotion: Suprise
       texture: {fileID: 2800000, guid: f8efeabcdb02cbd4e99b92fe572bab0b, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: 96d993892ae10f74eba3fcedc360532a, type: 3}
   - material: {fileID: 2100000, guid: fe86dc616b36374488380e744c87a789, type: 2}
     textures:
     - emotion: Anger
@@ -4474,6 +4532,8 @@ MonoBehaviour:
       texture: {fileID: 2800000, guid: 2b110a54061d9e347b26497c55e43a82, type: 3}
     - emotion: Suprise
       texture: {fileID: 2800000, guid: 97a5b752612e25f4dbcb31df5d04a200, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: 7dfa92d064980b542923d2caf42996e4, type: 3}
   - material: {fileID: 2100000, guid: 81ba1ae303492ba41979b1d94c1e9aeb, type: 2}
     textures:
     - emotion: Anger
@@ -4490,6 +4550,8 @@ MonoBehaviour:
       texture: {fileID: 2800000, guid: 9b3d7a625065d7e45a2d0b2c83784947, type: 3}
     - emotion: Suprise
       texture: {fileID: 2800000, guid: 4e6fb3de17cd9504baec30e2bf4c8db9, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: 54914e44a57313344bfb5985f9b4cd01, type: 3}
   - material: {fileID: 2100000, guid: 50b46326bd642384f8410774592c5ac6, type: 2}
     textures:
     - emotion: Anger
@@ -4506,6 +4568,8 @@ MonoBehaviour:
       texture: {fileID: 2800000, guid: e508cb776a18f4d409e804d270b858f4, type: 3}
     - emotion: Suprise
       texture: {fileID: 2800000, guid: e2b463a5b217818498fe63c8664125d5, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: bf1f9986b651bc146a5cc6f550c78c1e, type: 3}
   - material: {fileID: 2100000, guid: 50b46326bd642384f8410774592c5ac6, type: 2}
     textures:
     - emotion: Anger
@@ -4522,6 +4586,8 @@ MonoBehaviour:
       texture: {fileID: 2800000, guid: e508cb776a18f4d409e804d270b858f4, type: 3}
     - emotion: Suprise
       texture: {fileID: 2800000, guid: e2b463a5b217818498fe63c8664125d5, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: bf1f9986b651bc146a5cc6f550c78c1e, type: 3}
   - material: {fileID: 2100000, guid: fcaa0353876a26643b859f19ccec8a3c, type: 2}
     textures:
     - emotion: Anger
@@ -4538,6 +4604,8 @@ MonoBehaviour:
       texture: {fileID: 2800000, guid: 515ab104ed5fb814c86c0246222728a2, type: 3}
     - emotion: Suprise
       texture: {fileID: 2800000, guid: e32633cd04d140643aa2a15656c25d4c, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: 804536c9c81b0734abe1b52ccba0730c, type: 3}
   - material: {fileID: 2100000, guid: 4e00bb3a7dd719a4eb29a67184c9831f, type: 2}
     textures:
     - emotion: Anger
@@ -4554,6 +4622,8 @@ MonoBehaviour:
       texture: {fileID: 2800000, guid: 4eb26c9cd8ca25e45a3237533b479019, type: 3}
     - emotion: Suprise
       texture: {fileID: 2800000, guid: 9397c1fd723d71249b75c4350208818b, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: da81251203052c94d8ff48ea0ddb8620, type: 3}
   - material: {fileID: 2100000, guid: 38ecefc2624ce4843bee0a5734748cfc, type: 2}
     textures:
     - emotion: Anger
@@ -4570,6 +4640,8 @@ MonoBehaviour:
       texture: {fileID: 2800000, guid: 7aa8e55643339724085dabcc7b724e82, type: 3}
     - emotion: Suprise
       texture: {fileID: 2800000, guid: 1ca3b86880ba4414cbc3c8143d4f3784, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: 3c0fb2a999dda8748840eebc2bf40c73, type: 3}
   - material: {fileID: 2100000, guid: 38ecefc2624ce4843bee0a5734748cfc, type: 2}
     textures:
     - emotion: Anger
@@ -4586,6 +4658,8 @@ MonoBehaviour:
       texture: {fileID: 2800000, guid: 0217daac1e8f22743bf47f1d8a37be67, type: 3}
     - emotion: Suprise
       texture: {fileID: 2800000, guid: 3f69235ed4c46274a8c31475816bf911, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: 3c0fb2a999dda8748840eebc2bf40c73, type: 3}
   - material: {fileID: 2100000, guid: 8e445c7e5da2bd64aaa29bc2c8320fe3, type: 2}
     textures:
     - emotion: Anger
@@ -4602,6 +4676,8 @@ MonoBehaviour:
       texture: {fileID: 2800000, guid: 6ff4f648fac7bb340bbc36b2f5f7ad53, type: 3}
     - emotion: Suprise
       texture: {fileID: 2800000, guid: 81198cfda2cb9fd4fa857a90ce406d1c, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: f8d212cd5051f72499d00433bf13d232, type: 3}
   - material: {fileID: 2100000, guid: 0bf17862e3be6bd41b31ee2b40f97475, type: 2}
     textures:
     - emotion: Anger
@@ -4618,6 +4694,8 @@ MonoBehaviour:
       texture: {fileID: 2800000, guid: 47634ddf56d06904ebbc3e6286ac934c, type: 3}
     - emotion: Suprise
       texture: {fileID: 2800000, guid: 2c42b3b55f88e27458c6e32ffff3a596, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: 7b30dc7c3a354c547a72b2b06ae5022a, type: 3}
   - material: {fileID: 2100000, guid: dd0322b180adab144a1af5c2c30fdd18, type: 2}
     textures:
     - emotion: Anger
@@ -4634,6 +4712,8 @@ MonoBehaviour:
       texture: {fileID: 2800000, guid: f20de4f158c8d62438d564ef2713df5e, type: 3}
     - emotion: Suprise
       texture: {fileID: 2800000, guid: 9f6994a0d5f6c554bb22910208c3b820, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: 2e89d0acb38ad6a4e8ff6435c8aa5644, type: 3}
   - material: {fileID: 2100000, guid: 8c31bb4377c2bf3429622964fc44e96a, type: 2}
     textures:
     - emotion: Anger
@@ -4650,6 +4730,8 @@ MonoBehaviour:
       texture: {fileID: 2800000, guid: f2f65aac65b231e43a8aa72db1dd48b1, type: 3}
     - emotion: Suprise
       texture: {fileID: 2800000, guid: b36830de71bbc4e42bf0d457009b43fe, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: 0794771c73ee6e346981368809f46666, type: 3}
   - material: {fileID: 2100000, guid: ad8cb9d7af5804140b2be6860aa6a103, type: 2}
     textures:
     - emotion: Anger
@@ -4666,6 +4748,8 @@ MonoBehaviour:
       texture: {fileID: 2800000, guid: 87deb948043696e46b0196b9d6f06ea8, type: 3}
     - emotion: Suprise
       texture: {fileID: 2800000, guid: dd437439f51988540b21f5145abfc2d9, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: e40e6cf6fba49ee41a91eef60c9530dd, type: 3}
   - material: {fileID: 2100000, guid: 27b34b070a7c8264ea5de3d29b64d1cf, type: 2}
     textures:
     - emotion: Anger
@@ -4682,6 +4766,8 @@ MonoBehaviour:
       texture: {fileID: 2800000, guid: 59462c3ce0293bb4fb05be12e7191f88, type: 3}
     - emotion: Suprise
       texture: {fileID: 2800000, guid: 52b69481e83fb964bb1ee2a18da41c0b, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: a621e8e76bac1514ea76e38ff31df020, type: 3}
   - material: {fileID: 2100000, guid: 28cb45eff59247d47aa0452c626a4a3e, type: 2}
     textures:
     - emotion: Anger
@@ -4698,6 +4784,8 @@ MonoBehaviour:
       texture: {fileID: 2800000, guid: c478f620fc32d74499380398f4ea7ba9, type: 3}
     - emotion: Suprise
       texture: {fileID: 2800000, guid: 6080317145bf01b4aae88b3421c3355e, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: 478668fcd05c4c846a2ae157db213eca, type: 3}
   - material: {fileID: 2100000, guid: 2049d4616fadc504ca1c797597ce7899, type: 2}
     textures:
     - emotion: Anger
@@ -4714,6 +4802,8 @@ MonoBehaviour:
       texture: {fileID: 2800000, guid: 21a95973475087047b28235fcc07face, type: 3}
     - emotion: Suprise
       texture: {fileID: 2800000, guid: 88acb25ca7688ae459405c6862a37fba, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: f3fb2aa4325220341916ff9ebbbb04e1, type: 3}
   - material: {fileID: 2100000, guid: d7bfe969bb8d1184aae48ae0c19686d0, type: 2}
     textures:
     - emotion: Anger
@@ -4730,6 +4820,8 @@ MonoBehaviour:
       texture: {fileID: 2800000, guid: 68f0bbe42c4fc2141bb368d110919cd3, type: 3}
     - emotion: Suprise
       texture: {fileID: 2800000, guid: 684209d56d1f65c43af1b749d3e90bdb, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: 9687665b8ed17af4baa89b67fbb86b74, type: 3}
   - material: {fileID: 2100000, guid: f7b0172bb491c3c40a7b5f7cc46fa955, type: 2}
     textures:
     - emotion: Anger
@@ -4746,6 +4838,8 @@ MonoBehaviour:
       texture: {fileID: 2800000, guid: fd9b6149ffd3a6a49acffc4ace7571d9, type: 3}
     - emotion: Suprise
       texture: {fileID: 2800000, guid: 7336351678c37c94189fc0ed131e386a, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: ffa6e0422cecc4b4999763cd2403b7cc, type: 3}
   - material: {fileID: 2100000, guid: 68577354a19c5bd4fbfaa8cce3c67364, type: 2}
     textures:
     - emotion: Anger
@@ -4762,6 +4856,8 @@ MonoBehaviour:
       texture: {fileID: 2800000, guid: 0c5625d5966f6b5489cca9a1c51a9660, type: 3}
     - emotion: Suprise
       texture: {fileID: 2800000, guid: 9895dcfe793ac8a46b9ed332aed9f1cc, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: 478668fcd05c4c846a2ae157db213eca, type: 3}
   - material: {fileID: 2100000, guid: 4b4431e72bdec134182fdbc4f03e5dd3, type: 2}
     textures:
     - emotion: Anger
@@ -4778,6 +4874,8 @@ MonoBehaviour:
       texture: {fileID: 2800000, guid: 3969f7aa2564dd94c947230f97f6db1b, type: 3}
     - emotion: Suprise
       texture: {fileID: 2800000, guid: 414a93a3597f4ce4180a10500d14c36b, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: cb023a47c2612404c82e6fcc9caa2c9b, type: 3}
   transitionDuration: 1
   lightingPresets: []
   directionalLight: {fileID: 0}
