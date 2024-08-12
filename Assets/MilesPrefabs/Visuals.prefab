@@ -7486,9 +7486,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7676209835004097705}
-  - component: {fileID: 3858431668241996829}
   - component: {fileID: 2231819233121296014}
-  - component: {fileID: 8920602969850346547}
   m_Layer: 0
   m_Name: Mic
   m_TagString: Untagged
@@ -7511,24 +7509,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1016672848153848302}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3858431668241996829
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9209791219508351526}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e9b5b0634a031dc409655b84a13e7b78, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  detectionThreshold: 0.01
-  silenceThreshold: 0.01
-  silenceDuration: 2
-  recordingLength: 10
-  sampleRate: 44100
-  showDebugInfo: 1
 --- !u!114 &2231819233121296014
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7546,30 +7526,9 @@ MonoBehaviour:
   outputTextUser2: {fileID: 7356237635525685105}
   timingTextUser1: {fileID: 1826590491174799273}
   timingTextUser2: {fileID: 6737799424790398470}
+  companyNameTextUser1: {fileID: 0}
+  companyNameTextUser2: {fileID: 0}
   showDebugInfo: 1
   audioQualityThreshold: 0.01
   dropdownUser1: {fileID: 2490174599884838493}
   dropdownUser2: {fileID: 3185624939552291974}
---- !u!114 &8920602969850346547
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9209791219508351526}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61022ff576643ec4281b0b5d7f5de125, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  emotionData:
-    Suprise: 0
-    Happy: 0
-    Sad: 0
-    Angry: 0
-    Fear: 0
-    Disgust: 0
-    Anticipation: 0
-    Lonely: 0
-  werms: {fileID: 2429358247511124314}
-  emotionParticleSystems: []
