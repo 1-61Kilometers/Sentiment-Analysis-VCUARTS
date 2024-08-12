@@ -3703,6 +3703,62 @@ ParticleSystem:
   m_CorrespondingSourceObject: {fileID: 1598139546916047019, guid: 8a45e81b43a1eb6489c7fd455eae937d, type: 3}
   m_PrefabInstance: {fileID: 1355820592}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1441214858
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1441214860}
+  - component: {fileID: 1441214859}
+  m_Layer: 0
+  m_Name: test
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1441214859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1441214858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94ee300605c964040b8dcadf7e546ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioManagement: {fileID: 1443554852}
+--- !u!4 &1441214860
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1441214858}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.42509413, y: -0.2743355, z: -1.102093}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1443554852 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5469551901201406612, guid: 43421cbd783895847b545870a5b462db, type: 3}
+  m_PrefabInstance: {fileID: 2341302763485058002}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9f55060a607c4b4682a45bbd141295e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1503745931
 GameObject:
   m_ObjectHideFlags: 0
@@ -4552,24 +4608,24 @@ MonoBehaviour:
       texture: {fileID: 2800000, guid: 4e6fb3de17cd9504baec30e2bf4c8db9, type: 3}
     - emotion: Sad
       texture: {fileID: 2800000, guid: 54914e44a57313344bfb5985f9b4cd01, type: 3}
-  - material: {fileID: 2100000, guid: 50b46326bd642384f8410774592c5ac6, type: 2}
+  - material: {fileID: 2100000, guid: c39e57d48d83fc843a824fd0f7817cd7, type: 2}
     textures:
     - emotion: Angry
-      texture: {fileID: 2800000, guid: ef1541a383500ca44bf47f57a653c1a0, type: 3}
+      texture: {fileID: 2800000, guid: c0db5e423f6e30b40912d3f6dafb358c, type: 3}
     - emotion: Anticipation
-      texture: {fileID: 2800000, guid: 76b1388c7fd5c634dacfdc7948dce785, type: 3}
+      texture: {fileID: 2800000, guid: 2e239a16e90dc7742aaee197b7dd9c85, type: 3}
     - emotion: Disgust
-      texture: {fileID: 2800000, guid: c564d02d2bdb5b64d9d8962f2e6db296, type: 3}
+      texture: {fileID: 2800000, guid: 97da39d73d86e114f90b3ca7a5ba23e9, type: 3}
     - emotion: Fear
-      texture: {fileID: 2800000, guid: 8f9c159f253d2e04a9aeaca5b2a8c408, type: 3}
+      texture: {fileID: 2800000, guid: d2b7ec39890ece745b014ccd588c2623, type: 3}
     - emotion: Happy
-      texture: {fileID: 2800000, guid: 5ceb59107e8a5764a9afcdf2fe7573a9, type: 3}
+      texture: {fileID: 2800000, guid: caf413182a1e4094fa8442357013da06, type: 3}
     - emotion: Neutral
-      texture: {fileID: 2800000, guid: e508cb776a18f4d409e804d270b858f4, type: 3}
+      texture: {fileID: 2800000, guid: 418f75d3e6005054c80c379c94a1137e, type: 3}
     - emotion: Suprise
-      texture: {fileID: 2800000, guid: e2b463a5b217818498fe63c8664125d5, type: 3}
+      texture: {fileID: 2800000, guid: 246b73c3197ce184590f317222d22d80, type: 3}
     - emotion: Sad
-      texture: {fileID: 2800000, guid: bf1f9986b651bc146a5cc6f550c78c1e, type: 3}
+      texture: {fileID: 2800000, guid: a4ed0cdf8b4f04c4fbfea3b7c0ad4510, type: 3}
   - material: {fileID: 2100000, guid: 50b46326bd642384f8410774592c5ac6, type: 2}
     textures:
     - emotion: Angry
@@ -4876,6 +4932,24 @@ MonoBehaviour:
       texture: {fileID: 2800000, guid: 414a93a3597f4ce4180a10500d14c36b, type: 3}
     - emotion: Sad
       texture: {fileID: 2800000, guid: cb023a47c2612404c82e6fcc9caa2c9b, type: 3}
+  - material: {fileID: 2100000, guid: 91b36dbd3da3699479ee7edb7ca97664, type: 2}
+    textures:
+    - emotion: Angry
+      texture: {fileID: 2800000, guid: 9214e24399557324889e45d3a17fdb1d, type: 3}
+    - emotion: Anticipation
+      texture: {fileID: 2800000, guid: e869e1ef2e00f41429d2bc45d6ecba5c, type: 3}
+    - emotion: Disgust
+      texture: {fileID: 2800000, guid: cda3f81fa3c423b47a7181fdcf5f64f0, type: 3}
+    - emotion: Fear
+      texture: {fileID: 2800000, guid: 8bb76e4f79aaa164f903b0cc21a56965, type: 3}
+    - emotion: Happy
+      texture: {fileID: 2800000, guid: 07a29252eedb9e745abc1a0d6375bfc2, type: 3}
+    - emotion: Neutral
+      texture: {fileID: 2800000, guid: 41340278597200a44b8aad1acb9619ed, type: 3}
+    - emotion: Suprise
+      texture: {fileID: 2800000, guid: 3bdf834ffffb2494ea73d863dad74ad1, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: 2feaf61cad57b5e46bfc2b006e21523e, type: 3}
   transitionDuration: 1
   lightingPresets: []
   directionalLight: {fileID: 0}
@@ -5462,3 +5536,4 @@ SceneRoots:
   - {fileID: 165610701}
   - {fileID: 1094088144}
   - {fileID: 2341302763485058002}
+  - {fileID: 1441214860}

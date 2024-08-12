@@ -13,7 +13,8 @@ public class ModelCommunication : MonoBehaviour
     Model runtimeModel;
     IWorker worker;
     private int counter;
-    public TextMeshProUGUI outputText;
+    public TextMeshProUGUI modelOutputText;
+    public TextMeshProUGUI facialPointText;
     [SerializeField] private int length1;
     [SerializeField] private int length2;
     public OVRFaceExpressions faceExpressions;
@@ -48,17 +49,21 @@ public class ModelCommunication : MonoBehaviour
 
             string outputString = $"Detected Emotion: {detectedEmotion}\n\nModel Output:\n" +
                 string.Join("\n", outputData.Select((value, index) => $"{emotions[index]}: {value:F4}"));
-            if (outputText != null)
+            if (modelOutputText != null)
             {
-                outputText.text = outputString;
+                modelOutputText.text = outputString;
+            }
+            if (facialPointText != null)
+            {
+                facialPointText.text = data.ToString();
             }
             
         }
         else
         {
-            if(outputText != null)
+            if(modelOutputText != null)
             {
-                outputText.text = $"Invalid Facial Expressions: {counter}";
+                modelOutputText.text = $"Invalid Facial Expressions: {counter}";
             }
             
         }

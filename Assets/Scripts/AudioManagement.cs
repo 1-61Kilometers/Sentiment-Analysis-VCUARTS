@@ -100,7 +100,7 @@ public class AudioManagement : MonoBehaviour
         }
     }
 
-    private void UpdateAudioBasedOnEmotion(string emotion)
+    public void UpdateAudioBasedOnEmotion(string emotion)
     {
         // Find the audio source for the new emotion
         AudioSource newSource = GetAudioSourceForEmotion(emotion);
@@ -114,12 +114,14 @@ public class AudioManagement : MonoBehaviour
                 if (emotionWindow[0] != null)
                 {
                     StartCoroutine(FadeOutAudio(emotionWindow[0]));
+                    
                 }
                 emotionWindow.RemoveAt(0);
             }
 
             // Add the new emotion source and fade it in
             emotionWindow.Add(newSource);
+            Debug.Log("adding: " + newSource);
             StartCoroutine(FadeInAudio(newSource));
         }
     }
