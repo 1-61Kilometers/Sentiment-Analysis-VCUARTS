@@ -9,18 +9,18 @@ using System.Collections.Generic;
 
 public class MicrophoneRecorderManager : MonoBehaviour
 {
-    [SerializeField] private string apiKey = "sk-proj-TrLgDNYpGkFx5j3vIDKST3BlbkFJSvuazX2NtU6CV5xekDa1";
-    [SerializeField] private TextMeshProUGUI outputTextUser1;
-    [SerializeField] private TextMeshProUGUI outputTextUser2;
-    [SerializeField] private TextMeshProUGUI timingTextUser1;
-    [SerializeField] private TextMeshProUGUI timingTextUser2;
-    [SerializeField] private TextMeshProUGUI companyNameTextUser1;
-    [SerializeField] private TextMeshProUGUI companyNameTextUser2;
-    [SerializeField] private bool showDebugInfo = true;
-    [SerializeField] private float audioQualityThreshold = 0.01f;
+    public string apiKey = "sk-proj-TrLgDNYpGkFx5j3vIDKST3BlbkFJSvuazX2NtU6CV5xekDa1";
+    public TextMeshProUGUI outputTextUser1;
+    public TextMeshProUGUI outputTextUser2;
+    public TextMeshProUGUI timingTextUser1;
+    public TextMeshProUGUI timingTextUser2;
+    public TextMeshProUGUI companyNameTextUser1;
+    public TextMeshProUGUI companyNameTextUser2;
+    public bool showDebugInfo = true;
+    public float audioQualityThreshold = 0.01f;
 
-    [SerializeField] private TMP_Dropdown dropdownUser1;
-    [SerializeField] private TMP_Dropdown dropdownUser2;
+    public TMP_Dropdown dropdownUser1;
+    public TMP_Dropdown dropdownUser2;
 
     private AudioRecorder audioRecorderUser1;
     private AudioRecorder audioRecorderUser2;

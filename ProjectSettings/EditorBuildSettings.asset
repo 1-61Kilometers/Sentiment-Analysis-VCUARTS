@@ -35,9 +35,24 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Research.unity
     guid: c40558faab7d88446bdaf6ff4072e96c
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Research 1.unity
     guid: a2e61f9dd1a7514488c0c4761a109b65
+  - enabled: 1
+    path: Assets/Scenes/Finished/Airport 1.unity
+    guid: f481ad8984efa9347a1f3111853d3df9
+  - enabled: 1
+    path: Assets/Scenes/Finished/Immigration Office.unity
+    guid: 2e673bb3dc25a954da97c6480ec94a1a
+  - enabled: 1
+    path: Assets/Scenes/Finished/Classroom.unity
+    guid: 3eb756d2fb909d3459547a5cf8496b2e
+  - enabled: 1
+    path: Assets/Scenes/Finished/Hospital.unity
+    guid: 134a45b8f40799849b40295453db2c7e
+  - enabled: 1
+    path: Assets/Scenes/Finished/Bathroom.unity
+    guid: 455aed7f298042a45ac77e67cbf77afc
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: f633bb7ec1ee1b74d8fde3dc6fb9c8da, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 2f804490fa66c0642bd795138cb0dcc7, type: 2}

@@ -5,7 +5,7 @@ public class ContinuousLocomotion : MonoBehaviour
 {
     public float moveSpeed = 1.0f;
     public OVRCameraRig cameraRig;
-    public OVRInput.Controller controllerType = OVRInput.Controller.RTouch; // Use right controller by default
+    public OVRInput.Controller controllerType = OVRInput.Controller.LTouch; // Use right controller by default
 
     // Events for button presses
     public UnityEvent onAButtonPressed;

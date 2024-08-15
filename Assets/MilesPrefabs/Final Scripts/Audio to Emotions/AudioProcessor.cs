@@ -5,8 +5,8 @@ using System.Collections.Generic;
 
 public class AudioProcessor : MonoBehaviour
 {
-    [SerializeField] private float detectionThreshold = 0.01f;
-    [SerializeField] private float silenceThreshold = 0.005f;
+    [SerializeField] private float detectionThreshold = 0.05f;
+    [SerializeField] private float silenceThreshold = 0.04f;
     [SerializeField] private float silenceDuration = 1f;
 
     private List<float> _samplesBuffer = new List<float>();
