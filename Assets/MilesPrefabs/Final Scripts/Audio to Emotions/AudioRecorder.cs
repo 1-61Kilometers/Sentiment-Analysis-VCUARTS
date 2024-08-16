@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 using System.Linq;
 using System.Collections.Generic;
 
@@ -7,8 +8,23 @@ public class AudioRecorder : MonoBehaviour
     [SerializeField] private int recordingLength = 10;
     [SerializeField] private int sampleRate = 44100;
 
-    private AudioClip _microphoneClip;
-    private string _microphoneName;
+    private AudioClip microphoneClip;
+    private AudioClip preRecordedClip;
+    private string microphoneName;
+    private bool usePreRecordedAudio = false;
+    private AudioSource audioSource;
+    private bool isPlaying = false;
+    private float playbackStartTime;
+
+    public bool IsUsingPreRecordedAudio()
+    {
+        return usePreRecordedAudio;
+    }
+
+    private void Awake()
+    {
+        audioSource = gameObject.AddComponent<AudioSource>();
+    }
 
     public List<string> GetAvailableMicrophones()
     {
@@ -19,8 +35,9 @@ public class AudioRecorder : MonoBehaviour
     {
         if (Microphone.devices.Contains(microphoneName))
         {
-            _microphoneName = microphoneName;
-            Debug.Log($"Set microphone to: {_microphoneName}");
+            this.microphoneName = microphoneName;
+            usePreRecordedAudio = false;
+            Debug.Log($"Set microphone to: {this.microphoneName}");
         }
         else
         {
@@ -28,43 +45,126 @@ public class AudioRecorder : MonoBehaviour
         }
     }
 
+    public void UsePreRecordedAudio(AudioClip clip)
+    {
+        preRecordedClip = clip;
+        usePreRecordedAudio = true;
+        Debug.Log("Set to use pre-recorded audio");
+    }
+
     public string GetMicrophoneName()
     {
-        return _microphoneName;
+        return microphoneName;
     }
 
     public void StartRecording()
     {
-        if (string.IsNullOrEmpty(_microphoneName))
+        StopAllCoroutines();
+        audioSource.Stop();
+        
+        if (usePreRecordedAudio)
         {
-            Debug.LogError("No microphone selected. Please select a microphone before recording.");
-            return;
+            if (preRecordedClip == null)
+            {
+                Debug.LogError("No pre-recorded audio clip assigned.");
+                return;
+            }
+            audioSource.clip = preRecordedClip;
+            audioSource.loop = false;
+            audioSource.Play();
+            isPlaying = true;
+            playbackStartTime = Time.time;
+            Debug.Log("Started playback of pre-recorded audio");
+        }
+        else
+        {
+            if (string.IsNullOrEmpty(microphoneName))
+            {
+                Debug.LogError("No microphone selected. Please select a microphone before recording.");
+                return;
+            }
+            if (Microphone.IsRecording(microphoneName))
+            {
+                Microphone.End(microphoneName);
+            }
+            microphoneClip = Microphone.Start(microphoneName, true, recordingLength, sampleRate);
+            audioSource.clip = microphoneClip;
+            audioSource.loop = true;
+            audioSource.Play();
+            isPlaying = true;
+            playbackStartTime = Time.time;
+            Debug.Log($"Started recording on {microphoneName}");
         }
 
-        if (Microphone.IsRecording(_microphoneName))
+        StartCoroutine(MonitorPlayback());
+    }
+
+    private IEnumerator MonitorPlayback()
+    {
+        while (isPlaying)
         {
-            Microphone.End(_microphoneName);
+            if (usePreRecordedAudio && !audioSource.isPlaying)
+            {
+                isPlaying = false;
+                Debug.Log("Pre-recorded audio playback completed");
+            }
+            yield return null;
         }
-        _microphoneClip = Microphone.Start(_microphoneName, true, recordingLength, sampleRate);
-        Debug.Log($"Started recording on {_microphoneName}");
     }
 
     public void StopRecording()
     {
-        if (!string.IsNullOrEmpty(_microphoneName))
+        isPlaying = false;
+        StopAllCoroutines();
+        audioSource.Stop();
+        
+        if (!usePreRecordedAudio && !string.IsNullOrEmpty(microphoneName))
         {
-            Microphone.End(_microphoneName);
-            Debug.Log($"Stopped recording on {_microphoneName}");
+            Microphone.End(microphoneName);
+            Debug.Log($"Stopped recording on {microphoneName}");
+        }
+        else
+        {
+            Debug.Log("Stopped playback of pre-recorded audio");
         }
     }
 
     public AudioClip GetRecordedClip()
     {
-        return _microphoneClip;
+        return usePreRecordedAudio ? preRecordedClip : microphoneClip;
     }
 
     public int GetPosition()
     {
-        return Microphone.GetPosition(_microphoneName);
+        if (!isPlaying)
+        {
+            return 0;
+        }
+
+        if (usePreRecordedAudio)
+        {
+            return Mathf.FloorToInt(audioSource.time * preRecordedClip.frequency);
+        }
+        else
+        {
+            return Microphone.GetPosition(microphoneName);
+        }
+    }
+
+    public bool IsFinished()
+    {
+        if (!isPlaying)
+        {
+            return true;
+        }
+
+        if (usePreRecordedAudio)
+        {
+            return !audioSource.isPlaying;
+        }
+        else
+        {
+            return false; // Microphone recording doesn't finish unless stopped manually
+        }
     }
 }

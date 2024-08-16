@@ -31,13 +31,10 @@ public class EmotionAnalyzer : MonoBehaviour
                 return;
             }
         }
-
-        Debug.Log("EmotionAnalyzer initialized successfully.");
     }
 
     public void UpdateEmotions(string jsonString)
     {
-        Debug.Log($"Updating emotions with: {jsonString}");
         jsonString = jsonString.Trim();
         int startIndex = jsonString.IndexOf('{');
         int endIndex = jsonString.LastIndexOf('}');
@@ -47,16 +44,8 @@ public class EmotionAnalyzer : MonoBehaviour
         }
 
         EmotionData emotionData = JsonUtility.FromJson<EmotionData>(jsonString);
-        
-        Debug.Log("Parsed EmotionData:");
-        Debug.Log($"Happy: {emotionData.Happy}, Sad: {emotionData.Sad}, Angry: {emotionData.Angry}");
-        Debug.Log($"Fear: {emotionData.Fear}, Disgust: {emotionData.Disgust}, Anticipation: {emotionData.Anticipation}");
-        Debug.Log($"Lonely: {emotionData.Lonely}, Surprise: {emotionData.Suprise}");
-
         emotionTracker.UpdateEmotions(emotionData);
         UpdateRadarPolygon(emotionData);
-
-        Debug.Log("Emotions updated successfully.");
     }
 
     private void UpdateRadarPolygon(EmotionData emotionData)
@@ -70,22 +59,11 @@ public class EmotionAnalyzer : MonoBehaviour
             ConvertToFloat(emotionData.Disgust),
             ConvertToFloat(emotionData.Anticipation),
             ConvertToFloat(emotionData.Lonely),
-            ConvertToFloat(emotionData.Suprise)  // Note: "Suprise" is misspelled in the original EmotionData struct
+            ConvertToFloat(emotionData.Suprise)
         };
-
-        Debug.Log("Converted values for RadarPolygon:");
-        for (int i = 0; i < convertedValues.Length; i++)
-        {
-            Debug.Log($"Emotion {i}: {convertedValues[i]}");
-        }
-
         radarPolygon.value = convertedValues;
         radarPolygon.segment = convertedValues.Length;
-
-        // Force the RadarPolygon to redraw
         radarPolygon.SetVerticesDirty();
-
-        Debug.Log("RadarPolygon updated with new values.");
     }
 
     private float ConvertToFloat(int value)
@@ -94,7 +72,6 @@ public class EmotionAnalyzer : MonoBehaviour
         if(convertedValue < .2){
             convertedValue = .2f;
         }
-        Debug.Log($"Converting {value} to float: {convertedValue}");
         return convertedValue;
     }
 }

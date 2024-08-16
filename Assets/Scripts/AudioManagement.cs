@@ -42,8 +42,11 @@ public class AudioManagement : MonoBehaviour
     [Tooltip("Number of Emotions Playing at a Time")]
     [SerializeField] private int emotionWindowSize = 2;
 
-    private AudioSource[] audioSources; // Array to hold all audio sources
-    private List<AudioSource> emotionWindow; // List to hold currently playing emotions
+    [Tooltip("Starting volume for all audio sources")]
+    [SerializeField] private float startingVolume = 0.068f;
+
+    private AudioSource[] audioSources;
+    private List<AudioSource> emotionWindow;
 
     private string mainEmotion;
     private string prevEmotion;
@@ -52,37 +55,31 @@ public class AudioManagement : MonoBehaviour
     {
         audioSources = new AudioSource[]
         {
-            backgroundSource,    // 0
-            environmentSource,   // 1
-            angrySource,         // 2
-            anxiousSource,       // 3
-            determinationSource, // 4
-            happySource,         // 5
-            sadSource,           // 6
-            neutralSource,        //7
-            lonelySource,        //8
-            supriseSource,       //9
-            disgustSource       //10
+            backgroundSource, environmentSource, angrySource, anxiousSource,
+            determinationSource, happySource, sadSource, neutralSource,
+            lonelySource, supriseSource, disgustSource
         };
 
-        // Initialize the emotion window list
         emotionWindow = new List<AudioSource>();
 
-        // Turn off all audio sources at start
+        // Set the starting volume and stop all audio sources
         foreach (var source in audioSources)
         {
-            if (source != null && source.clip != null)
+            if (source != null)
             {
+                source.volume = startingVolume;
                 source.Stop();
             }
         }
+
+        // Start background and environment audio
         if (backgroundSource != null && backgroundSource.clip != null)
         {
-            StartCoroutine(FadeInAudio(backgroundSource));
+            backgroundSource.Play();
         }
-        if (environmentSource!= null && environmentSource.clip != null)
+        if (environmentSource != null && environmentSource.clip != null)
         {
-            StartCoroutine(FadeInAudio(environmentSource));
+            environmentSource.Play();
         }
     }
 
@@ -104,7 +101,7 @@ public class AudioManagement : MonoBehaviour
     {
         // Find the audio source for the new emotion
         AudioSource newSource = GetAudioSourceForEmotion(emotion);
-
+        
         // If the new source is not already in the emotion window
         if (newSource != null && newSource.clip !=null && !emotionWindow.Contains(newSource))
         {
@@ -166,7 +163,7 @@ public class AudioManagement : MonoBehaviour
             }
 
             audioSource.Stop();
-            audioSource.volume = startVolume; // Reset volume for next use
+            audioSource.volume = startingVolume; // Reset to starting volume
         }
     }
 
@@ -177,11 +174,13 @@ public class AudioManagement : MonoBehaviour
             audioSource.volume = 0f;
             audioSource.Play();
 
-            while (audioSource.volume < 1.0f)
+            while (audioSource.volume < startingVolume)
             {
-                audioSource.volume += Time.deltaTime / fadeDuration;
+                audioSource.volume += startingVolume * Time.deltaTime / fadeDuration;
                 yield return null;
             }
+
+            audioSource.volume = startingVolume; // Ensure it's exactly at the starting volume
         }
     }
 }

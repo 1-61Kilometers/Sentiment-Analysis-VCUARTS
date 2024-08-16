@@ -12,7 +12,7 @@ public class ChatGPTAPIClient : MonoBehaviour
 
     public async Task<(string emotionAnalysis, string companyName)> SendTextToChatGPTAsync(string text, string apiKey)
     {
-        Debug.Log("Sending text to ChatGPT API");
+        //Debug.Log("Sending text to ChatGPT API");
 
         string systemPrompt = enableAdSuggestions
             ? "Analyze the emotional content of the given text and suggest an appropriate real world company name if nothing good output N/A. Output a JSON object with two properties: 'emotions' and 'companyName'. The 'emotions' property should contain integer values from 0 to 10 for each of these emotions: Angry, Hope, Sad, Disgust, Anxiety, Happy, Neutral, Surprise, Lonely. Use 0 if the emotion is not present. The 'companyName' property should ONLY contain the name of a company that would be appropriate based on the emotional analysis, with no additional text or explanation. Only output the JSON object, nothing else."
@@ -57,7 +57,7 @@ public class ChatGPTAPIClient : MonoBehaviour
             var chatGPTResponse = JsonUtility.FromJson<ChatGPTResponse>(request.downloadHandler.text);
             string processedContent = ProcessResponse(chatGPTResponse.choices[0].message.content);
             var (emotionAnalysis, companyName) = ParseProcessedResponse(processedContent);
-            Debug.Log($"Processed ChatGPT API response - Emotions: {emotionAnalysis}, Company Name: {companyName}");
+            //Debug.Log($"Processed ChatGPT API response - Emotions: {emotionAnalysis}, Company Name: {companyName}");
             return (emotionAnalysis, companyName);
         }
         else
