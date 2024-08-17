@@ -45,6 +45,7 @@ public class EmotionAnalyzer : MonoBehaviour
 
         EmotionData emotionData = JsonUtility.FromJson<EmotionData>(jsonString);
         emotionTracker.UpdateEmotions(emotionData);
+        Debug.Log("UPDATING");
         UpdateRadarPolygon(emotionData);
     }
 
