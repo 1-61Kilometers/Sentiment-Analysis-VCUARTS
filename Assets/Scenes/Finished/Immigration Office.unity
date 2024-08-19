@@ -6183,8 +6183,40 @@ MonoBehaviour:
     - emotion: Sad
       texture: {fileID: 2800000, guid: cb023a47c2612404c82e6fcc9caa2c9b, type: 3}
   transitionDuration: 1
-  lightingPresets: []
-  directionalLight: {fileID: 0}
+  lightingPresets:
+  - emotion: Sad
+    ambientColor: {r: 0, g: 0.019954205, b: 1, a: 0}
+    directionalLightColor: {r: 0.05724907, g: 0, b: 1, a: 0}
+    directionalLightIntensity: 1
+  - emotion: Angry
+    ambientColor: {r: 1, g: 0, b: 0, a: 0}
+    directionalLightColor: {r: 1, g: 0, b: 0, a: 0}
+    directionalLightIntensity: 1
+  - emotion: Anticipation
+    ambientColor: {r: 0.5451994, g: 0, b: 1, a: 0}
+    directionalLightColor: {r: 0.5659275, g: 0, b: 1, a: 0}
+    directionalLightIntensity: 1
+  - emotion: Fear
+    ambientColor: {r: 0, g: 0, b: 0, a: 0}
+    directionalLightColor: {r: 0, g: 0, b: 0, a: 0}
+    directionalLightIntensity: 1
+  - emotion: Disgust
+    ambientColor: {r: 0.17368424, g: 1, b: 0, a: 0}
+    directionalLightColor: {r: 0.2153039, g: 1, b: 0, a: 0}
+    directionalLightIntensity: 1
+  - emotion: Happy
+    ambientColor: {r: 0.7843138, g: 0.5529412, b: 0.027450982, a: 0}
+    directionalLightColor: {r: 0.7830189, g: 0.55124503, b: 0.025854412, a: 0}
+    directionalLightIntensity: 1
+  - emotion: Suprise
+    ambientColor: {r: 0.6981132, g: 0.3275105, b: 0, a: 0}
+    directionalLightColor: {r: 0.69803923, g: 0.32941177, b: 0, a: 0}
+    directionalLightIntensity: 1
+  - emotion: Neutral
+    ambientColor: {r: 1, g: 1, b: 1, a: 0}
+    directionalLightColor: {r: 1, g: 1, b: 1, a: 0}
+    directionalLightIntensity: 1
+  directionalLight: {fileID: 405283927}
 --- !u!1 &661759559 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8247836397860581571, guid: c90d5a5022da9114ca973c94c94b8b67, type: 3}
@@ -7537,6 +7569,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1861472166}
     - target: {fileID: 2231819233121296014, guid: 880003b60658cae468821192fa0240b1, type: 3}
+      propertyPath: preRecordedClipUser1
+      value: 
+      objectReference: {fileID: 8300000, guid: 5cfd6c9856ae5aa4cbaf3c5de2341bdb, type: 3}
+    - target: {fileID: 2231819233121296014, guid: 880003b60658cae468821192fa0240b1, type: 3}
+      propertyPath: preRecordedClipUser2
+      value: 
+      objectReference: {fileID: 8300000, guid: 7ea5188a6bb320e41b0044ed6e819e72, type: 3}
+    - target: {fileID: 2231819233121296014, guid: 880003b60658cae468821192fa0240b1, type: 3}
       propertyPath: adSuggestionTextUser1
       value: 
       objectReference: {fileID: 1861472166}
@@ -7722,7 +7762,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7275445099684130397, guid: 880003b60658cae468821192fa0240b1, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -291.53564
+      value: 331.9
       objectReference: {fileID: 0}
     - target: {fileID: 7695403314772504087, guid: 880003b60658cae468821192fa0240b1, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -7746,13 +7786,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7784867872394897934, guid: 880003b60658cae468821192fa0240b1, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -284.7953
+      value: 331.9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 831777459204862200, guid: 880003b60658cae468821192fa0240b1, type: 3}
     - {fileID: 8920602969850346547, guid: 880003b60658cae468821192fa0240b1, type: 3}
     - {fileID: 3858431668241996829, guid: 880003b60658cae468821192fa0240b1, type: 3}
     - {fileID: 3788185705344974651, guid: 880003b60658cae468821192fa0240b1, type: 3}
+    - {fileID: 2371329210323289945, guid: 880003b60658cae468821192fa0240b1, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 349746927634107103, guid: 880003b60658cae468821192fa0240b1, type: 3}

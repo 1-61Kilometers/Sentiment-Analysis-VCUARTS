@@ -848,7 +848,7 @@ Transform:
   m_GameObject: {fileID: 596878895}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 26.914, y: 6.4, z: 5.622}
+  m_LocalPosition: {x: 26.914, y: 3.878, z: 2.992}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -869,7 +869,7 @@ ReflectionProbe:
   m_TimeSlicingMode: 0
   m_Resolution: 128
   m_UpdateFrequency: 0
-  m_BoxSize: {x: 14.54, y: 10, z: 25.66}
+  m_BoxSize: {x: 14.54, y: 15.46, z: 25.66}
   m_BoxOffset: {x: 0, y: 0, z: 0}
   m_NearClip: 0.3
   m_FarClip: 1000
@@ -1093,15 +1093,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 677367341945422435, guid: a4cd458af09655443839cde63bed5f7b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -24.41
+      value: -46.74
       objectReference: {fileID: 0}
     - target: {fileID: 677367341945422435, guid: a4cd458af09655443839cde63bed5f7b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.94
+      value: 8.13
       objectReference: {fileID: 0}
     - target: {fileID: 677367341945422435, guid: a4cd458af09655443839cde63bed5f7b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 7.88
+      value: -11.16
       objectReference: {fileID: 0}
     - target: {fileID: 677367341945422435, guid: a4cd458af09655443839cde63bed5f7b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1350,6 +1350,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2118758149}
     - target: {fileID: 2231819233121296014, guid: 880003b60658cae468821192fa0240b1, type: 3}
+      propertyPath: preRecordedClipUser1
+      value: 
+      objectReference: {fileID: 8300000, guid: 1bff8ce2b948579428e4bfd47a2dc656, type: 3}
+    - target: {fileID: 2231819233121296014, guid: 880003b60658cae468821192fa0240b1, type: 3}
+      propertyPath: preRecordedClipUser2
+      value: 
+      objectReference: {fileID: 8300000, guid: af64215503d97044fadbac070b4ed095, type: 3}
+    - target: {fileID: 2231819233121296014, guid: 880003b60658cae468821192fa0240b1, type: 3}
       propertyPath: adSuggestionTextUser1
       value: 
       objectReference: {fileID: 2118758149}
@@ -1539,7 +1547,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7275445099684130397, guid: 880003b60658cae468821192fa0240b1, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -291.53564
+      value: 340.27
       objectReference: {fileID: 0}
     - target: {fileID: 7695403314772504087, guid: 880003b60658cae468821192fa0240b1, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -1563,13 +1571,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7784867872394897934, guid: 880003b60658cae468821192fa0240b1, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -284.7953
+      value: 333.5
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 831777459204862200, guid: 880003b60658cae468821192fa0240b1, type: 3}
     - {fileID: 8920602969850346547, guid: 880003b60658cae468821192fa0240b1, type: 3}
     - {fileID: 3858431668241996829, guid: 880003b60658cae468821192fa0240b1, type: 3}
     - {fileID: 3788185705344974651, guid: 880003b60658cae468821192fa0240b1, type: 3}
+    - {fileID: 2371329210323289945, guid: 880003b60658cae468821192fa0240b1, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 349746927634107103, guid: 880003b60658cae468821192fa0240b1, type: 3}
@@ -1686,18 +1695,6 @@ MonoBehaviour:
     lowIntensityParticleSystem: {fileID: 1592693915}
     mediumIntensityParticleSystem: {fileID: 1592693915}
     highIntensityParticleSystem: {fileID: 1592693915}
-  - emotion: Happy
-    lowIntensityParticleSystem: {fileID: 0}
-    mediumIntensityParticleSystem: {fileID: 0}
-    highIntensityParticleSystem: {fileID: 0}
-  - emotion: Happy
-    lowIntensityParticleSystem: {fileID: 0}
-    mediumIntensityParticleSystem: {fileID: 0}
-    highIntensityParticleSystem: {fileID: 0}
-  - emotion: Happy
-    lowIntensityParticleSystem: {fileID: 0}
-    mediumIntensityParticleSystem: {fileID: 0}
-    highIntensityParticleSystem: {fileID: 0}
   - emotion: Happy
     lowIntensityParticleSystem: {fileID: 737074414}
     mediumIntensityParticleSystem: {fileID: 737074414}
@@ -2260,6 +2257,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: -5084555580338016287, guid: 56949c73bdeba674cadf643dd07d280c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3396e8db830e3ca40afbf69d69e986b7, type: 2}
     - target: {fileID: -5001180915590609293, guid: 56949c73bdeba674cadf643dd07d280c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
@@ -2276,6 +2277,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: -3951942498333533747, guid: 56949c73bdeba674cadf643dd07d280c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 04c2fdd071be32e47b84beaa6ca8ef1c, type: 2}
     - target: {fileID: -3926314716090935215, guid: 56949c73bdeba674cadf643dd07d280c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
@@ -2340,6 +2345,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: -197683506827358388, guid: 56949c73bdeba674cadf643dd07d280c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 04c2fdd071be32e47b84beaa6ca8ef1c, type: 2}
     - target: {fileID: -121442259643133730, guid: 56949c73bdeba674cadf643dd07d280c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
@@ -2392,6 +2401,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 2439188093656791496, guid: 56949c73bdeba674cadf643dd07d280c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3396e8db830e3ca40afbf69d69e986b7, type: 2}
     - target: {fileID: 2550463727306718371, guid: 56949c73bdeba674cadf643dd07d280c, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
@@ -3192,9 +3205,77 @@ MonoBehaviour:
       texture: {fileID: 2800000, guid: 414a93a3597f4ce4180a10500d14c36b, type: 3}
     - emotion: Sad
       texture: {fileID: 2800000, guid: cb023a47c2612404c82e6fcc9caa2c9b, type: 3}
+  - material: {fileID: 2100000, guid: 3396e8db830e3ca40afbf69d69e986b7, type: 2}
+    textures:
+    - emotion: Angry
+      texture: {fileID: 2800000, guid: ddc2459e54c2dc8498f9ce39ae698402, type: 3}
+    - emotion: Anticipation
+      texture: {fileID: 2800000, guid: d9be0878b5270934c83c67d3d7793724, type: 3}
+    - emotion: Disgust
+      texture: {fileID: 2800000, guid: 3dd09a31db8f8c54b829c9fac3d6a976, type: 3}
+    - emotion: Fear
+      texture: {fileID: 2800000, guid: 49a5214b731ca15439fc196c0be8cf59, type: 3}
+    - emotion: Happy
+      texture: {fileID: 2800000, guid: 22814ce2ef1e6354680a8599c2654afe, type: 3}
+    - emotion: Neutral
+      texture: {fileID: 2800000, guid: 14a74404fa5347141a3ffedce3598c8e, type: 3}
+    - emotion: Suprise
+      texture: {fileID: 2800000, guid: 1f4924fcbf301464c9fdd291950c1f3d, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: 720f3b561fe06324c8a2eaf86b952800, type: 3}
+  - material: {fileID: 2100000, guid: 04c2fdd071be32e47b84beaa6ca8ef1c, type: 2}
+    textures:
+    - emotion: Angry
+      texture: {fileID: 2800000, guid: 4de4eb0440243aa419be85cf50325389, type: 3}
+    - emotion: Anticipation
+      texture: {fileID: 2800000, guid: d33e8aca98ea58e47a166789d99c1651, type: 3}
+    - emotion: Disgust
+      texture: {fileID: 2800000, guid: d8e5e3d784676da48a405e943c1339aa, type: 3}
+    - emotion: Fear
+      texture: {fileID: 2800000, guid: f0c101f6072187642b392409522db014, type: 3}
+    - emotion: Happy
+      texture: {fileID: 2800000, guid: 46370c112a1f7b04681c1092756ef13a, type: 3}
+    - emotion: Neutral
+      texture: {fileID: 2800000, guid: fbf15681946debc479abbf80db213211, type: 3}
+    - emotion: Suprise
+      texture: {fileID: 2800000, guid: 02a7152a97a6d3a469e7afa6927a06c8, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: 8453f4ace2ac53748bab16b475fbd4a7, type: 3}
   transitionDuration: 1
-  lightingPresets: []
-  directionalLight: {fileID: 0}
+  lightingPresets:
+  - emotion: Sad
+    ambientColor: {r: 0, g: 0.019954205, b: 1, a: 0}
+    directionalLightColor: {r: 0.05724907, g: 0, b: 1, a: 0}
+    directionalLightIntensity: 1
+  - emotion: Angry
+    ambientColor: {r: 1, g: 0, b: 0, a: 0}
+    directionalLightColor: {r: 1, g: 0, b: 0, a: 0}
+    directionalLightIntensity: 1
+  - emotion: Anticipation
+    ambientColor: {r: 0.5451994, g: 0, b: 1, a: 0}
+    directionalLightColor: {r: 0.5659275, g: 0, b: 1, a: 0}
+    directionalLightIntensity: 1
+  - emotion: Fear
+    ambientColor: {r: 0, g: 0, b: 0, a: 0}
+    directionalLightColor: {r: 0, g: 0, b: 0, a: 0}
+    directionalLightIntensity: 1
+  - emotion: Disgust
+    ambientColor: {r: 0.17368424, g: 1, b: 0, a: 0}
+    directionalLightColor: {r: 0.2153039, g: 1, b: 0, a: 0}
+    directionalLightIntensity: 1
+  - emotion: Happy
+    ambientColor: {r: 0.7843138, g: 0.5529412, b: 0.027450982, a: 0}
+    directionalLightColor: {r: 0.7830189, g: 0.55124503, b: 0.025854412, a: 0}
+    directionalLightIntensity: 1
+  - emotion: Suprise
+    ambientColor: {r: 0.6981132, g: 0.3275105, b: 0, a: 0}
+    directionalLightColor: {r: 0.69803923, g: 0.32941177, b: 0, a: 0}
+    directionalLightIntensity: 1
+  - emotion: Neutral
+    ambientColor: {r: 1, g: 1, b: 1, a: 0}
+    directionalLightColor: {r: 1, g: 1, b: 1, a: 0}
+    directionalLightIntensity: 1
+  directionalLight: {fileID: 1675229279}
 --- !u!1 &1312350560 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2550463727306718371, guid: 56949c73bdeba674cadf643dd07d280c, type: 3}
@@ -3482,7 +3563,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 1.7385e-41, y: 8.5e-44, z: 1.496e-41, w: 1.0795481e+34}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -3594,7 +3675,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1
-  m_Range: 0
+  m_Range: 1
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -3634,7 +3715,7 @@ Light:
   m_RenderingLayerMask: 1
   m_Lightmapping: 2
   m_LightShadowCasterMode: 0
-  m_AreaSize: {x: 9.003468, y: 12.066624}
+  m_AreaSize: {x: 11.691128, y: 15.247944}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
