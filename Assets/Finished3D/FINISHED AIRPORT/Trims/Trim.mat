@@ -24,7 +24,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: 620575bf0f8fa77409536f1ad3d67802, type: 3}
+        m_Texture: {fileID: 2800000, guid: 87e582cccaf619a4183092f42df774f9, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap1:
@@ -88,7 +88,7 @@ Material:
     - _AlphaClip: 0
     - _AlphaToMask: 0
     - _Blend: 0
-    - _BlendFactor: 0
+    - _BlendFactor: 0.0135381
     - _BlendModePreserveSpecular: 1
     - _BumpScale: 1
     - _ClearCoatMask: 0

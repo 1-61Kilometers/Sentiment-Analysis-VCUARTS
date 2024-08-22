@@ -37,11 +37,11 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: 44f6a48a1ec617a4caa7bdbf51a1176c, type: 3}
+        m_Texture: {fileID: 2800000, guid: e247a2d2e3d528e42a471be3d4f32fb5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap1:
-        m_Texture: {fileID: 2800000, guid: 44f6a48a1ec617a4caa7bdbf51a1176c, type: 3}
+        m_Texture: {fileID: 2800000, guid: e247a2d2e3d528e42a471be3d4f32fb5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -105,7 +105,7 @@ Material:
     - _AlphaClip: 0
     - _AlphaToMask: 0
     - _Blend: 0
-    - _BlendFactor: 0
+    - _BlendFactor: 0.64993966
     - _BlendModePreserveSpecular: 1
     - _BumpScale: 1
     - _ClearCoatMask: 0

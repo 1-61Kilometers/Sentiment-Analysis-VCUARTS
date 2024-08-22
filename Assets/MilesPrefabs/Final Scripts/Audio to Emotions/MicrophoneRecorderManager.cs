@@ -302,7 +302,7 @@ public class MicrophoneRecorderManager : MonoBehaviour
             {
                 await UpdateUIAsync(() => emotionAnalyzer.UpdateEmotions(emotionJson));
             }
-            UnityEngine.Debug.Log("UHHHHHHHHHHSHOULDAHJDIOEJHFG " + emotionJson);
+            //UnityEngine.Debug.Log("UHHHHHHHHHHSHOULDAHJDIOEJHFG " + emotionJson);
             if (!string.IsNullOrEmpty(companyName))
             {
                 await UpdateUIAsync(() => companyNameText.text = $"Suggested Company: {companyName}");
