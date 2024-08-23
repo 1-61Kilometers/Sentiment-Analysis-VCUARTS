@@ -118,6 +118,7 @@ public class EmotionVisualController : MonoBehaviour
 
     private IEnumerator TransitionTexture(Material material, Texture2D targetTexture)
     {
+        Debug.Log("Transitioning Textures");
         Texture2D currentTexture = material.GetTexture("_BaseMap") as Texture2D;
 
         material.SetTexture("_BaseMap", currentTexture);
