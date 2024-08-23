@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.41594818, g: 0.5374751, b: 0.7022147, a: 1}
+  m_IndirectSpecularColor: {r: 0.41595176, g: 0.53747696, b: 0.70221436, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -97,8 +97,8 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: 887a4d135b6937a4da0fe49feb4f00c2, type: 2}
-  m_LightingSettings: {fileID: 4890085278179872738, guid: 3c0e93a336ff141429d5cefd60e3a109, type: 2}
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -3891,6 +3891,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 84d4c77214dc13c41887308845168bbf, type: 2}
+    - target: {fileID: -4600001523735891052, guid: 4d8940af95a3fe042a0359287d5265c5, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5239b49c8e2c58144a9a404fd8aef09e, type: 2}
     - target: {fileID: -4563768194892075651, guid: 4d8940af95a3fe042a0359287d5265c5, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
@@ -3943,6 +3947,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: -3778552316883905761, guid: 4d8940af95a3fe042a0359287d5265c5, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5239b49c8e2c58144a9a404fd8aef09e, type: 2}
     - target: {fileID: -3767833013470102972, guid: 4d8940af95a3fe042a0359287d5265c5, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
@@ -4127,6 +4135,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: -1733134695830263796, guid: 4d8940af95a3fe042a0359287d5265c5, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5239b49c8e2c58144a9a404fd8aef09e, type: 2}
     - target: {fileID: -1678082042839911105, guid: 4d8940af95a3fe042a0359287d5265c5, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
@@ -4191,6 +4203,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: -777371384753353849, guid: 4d8940af95a3fe042a0359287d5265c5, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 996d494d6ed0d414e9b5ee928fdd65c9, type: 2}
     - target: {fileID: -674095748044594452, guid: 4d8940af95a3fe042a0359287d5265c5, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
@@ -4255,6 +4271,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 121667493900406674, guid: 4d8940af95a3fe042a0359287d5265c5, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5239b49c8e2c58144a9a404fd8aef09e, type: 2}
     - target: {fileID: 174195493766598032, guid: 4d8940af95a3fe042a0359287d5265c5, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
@@ -4279,10 +4299,18 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 378747272727589455, guid: 4d8940af95a3fe042a0359287d5265c5, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5239b49c8e2c58144a9a404fd8aef09e, type: 2}
     - target: {fileID: 538497902471612911, guid: 4d8940af95a3fe042a0359287d5265c5, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 578945347747759948, guid: 4d8940af95a3fe042a0359287d5265c5, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5239b49c8e2c58144a9a404fd8aef09e, type: 2}
     - target: {fileID: 626750604710011680, guid: 4d8940af95a3fe042a0359287d5265c5, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
@@ -4467,6 +4495,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 2665799276377987202, guid: 4d8940af95a3fe042a0359287d5265c5, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5239b49c8e2c58144a9a404fd8aef09e, type: 2}
     - target: {fileID: 2695110353149193296, guid: 4d8940af95a3fe042a0359287d5265c5, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
@@ -4607,6 +4639,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 84d4c77214dc13c41887308845168bbf, type: 2}
+    - target: {fileID: 4292816556855657765, guid: 4d8940af95a3fe042a0359287d5265c5, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5239b49c8e2c58144a9a404fd8aef09e, type: 2}
     - target: {fileID: 4316340617140918588, guid: 4d8940af95a3fe042a0359287d5265c5, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
@@ -4823,6 +4859,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 7420912680165317297, guid: 4d8940af95a3fe042a0359287d5265c5, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5239b49c8e2c58144a9a404fd8aef09e, type: 2}
     - target: {fileID: 7478202403705227139, guid: 4d8940af95a3fe042a0359287d5265c5, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
@@ -4971,12 +5011,20 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 9166364296413273826, guid: 4d8940af95a3fe042a0359287d5265c5, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5239b49c8e2c58144a9a404fd8aef09e, type: 2}
     - target: {fileID: 9204414772354467862, guid: 4d8940af95a3fe042a0359287d5265c5, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: -7720102535492274231, guid: 4d8940af95a3fe042a0359287d5265c5, type: 3}
+    - {fileID: -2668200706314791273, guid: 4d8940af95a3fe042a0359287d5265c5, type: 3}
+    - {fileID: 4670406299409120988, guid: 4d8940af95a3fe042a0359287d5265c5, type: 3}
+    - {fileID: -3520552082405985646, guid: 4d8940af95a3fe042a0359287d5265c5, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4d8940af95a3fe042a0359287d5265c5, type: 3}
       insertIndex: 26
@@ -5526,7 +5574,7 @@ MonoBehaviour:
     - emotion: Suprise
       texture: {fileID: 2800000, guid: 8d84e72c13aa5b94790dd7d7aabec769, type: 3}
     - emotion: Sad
-      texture: {fileID: 2800000, guid: c52f970f327426c418fea1d97bfbd9a7, type: 3}
+      texture: {fileID: 2800000, guid: 8aa7110a5ce0e8c42ae6388475377146, type: 3}
   - material: {fileID: 2100000, guid: ec8b61c7a4e7ce549b726a341d9abf6f, type: 2}
     textures:
     - emotion: Angry
@@ -5814,7 +5862,7 @@ MonoBehaviour:
     - emotion: Suprise
       texture: {fileID: 2800000, guid: 6080317145bf01b4aae88b3421c3355e, type: 3}
     - emotion: Sad
-      texture: {fileID: 2800000, guid: 478668fcd05c4c846a2ae157db213eca, type: 3}
+      texture: {fileID: 2800000, guid: b1222941686c2fe4db2a1885d9c40f84, type: 3}
   - material: {fileID: 2100000, guid: 2049d4616fadc504ca1c797597ce7899, type: 2}
     textures:
     - emotion: Angry
@@ -5923,6 +5971,78 @@ MonoBehaviour:
       texture: {fileID: 2800000, guid: 3bdf834ffffb2494ea73d863dad74ad1, type: 3}
     - emotion: Sad
       texture: {fileID: 2800000, guid: 2feaf61cad57b5e46bfc2b006e21523e, type: 3}
+  - material: {fileID: 2100000, guid: 91b36dbd3da3699479ee7edb7ca97664, type: 2}
+    textures:
+    - emotion: Angry
+      texture: {fileID: 2800000, guid: 9214e24399557324889e45d3a17fdb1d, type: 3}
+    - emotion: Anticipation
+      texture: {fileID: 2800000, guid: e869e1ef2e00f41429d2bc45d6ecba5c, type: 3}
+    - emotion: Disgust
+      texture: {fileID: 2800000, guid: cda3f81fa3c423b47a7181fdcf5f64f0, type: 3}
+    - emotion: Fear
+      texture: {fileID: 2800000, guid: 8bb76e4f79aaa164f903b0cc21a56965, type: 3}
+    - emotion: Happy
+      texture: {fileID: 2800000, guid: 07a29252eedb9e745abc1a0d6375bfc2, type: 3}
+    - emotion: Neutral
+      texture: {fileID: 2800000, guid: 41340278597200a44b8aad1acb9619ed, type: 3}
+    - emotion: Suprise
+      texture: {fileID: 2800000, guid: 3bdf834ffffb2494ea73d863dad74ad1, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: 2feaf61cad57b5e46bfc2b006e21523e, type: 3}
+  - material: {fileID: 2100000, guid: b355083400ad2fc448a2aff17c326b6c, type: 2}
+    textures:
+    - emotion: Angry
+      texture: {fileID: 2800000, guid: e03a9625789204c44bcd5dacaec59e07, type: 3}
+    - emotion: Anticipation
+      texture: {fileID: 2800000, guid: 56c2ba96a2c098c459e86a72c606409c, type: 3}
+    - emotion: Disgust
+      texture: {fileID: 2800000, guid: e6dd57d8e74b703418086c50e314c1c1, type: 3}
+    - emotion: Fear
+      texture: {fileID: 2800000, guid: eaf61d085bf684e41bdedf3dc7732c3e, type: 3}
+    - emotion: Happy
+      texture: {fileID: 2800000, guid: 77d521505a7907c4490b32e8db661ea6, type: 3}
+    - emotion: Neutral
+      texture: {fileID: 2800000, guid: 0217daac1e8f22743bf47f1d8a37be67, type: 3}
+    - emotion: Suprise
+      texture: {fileID: 2800000, guid: 3f69235ed4c46274a8c31475816bf911, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: 40d9a0be029096b48b2be4b6bb724a3d, type: 3}
+  - material: {fileID: 2100000, guid: 996d494d6ed0d414e9b5ee928fdd65c9, type: 2}
+    textures:
+    - emotion: Angry
+      texture: {fileID: 2800000, guid: 2644f257aff8f5c4abd4bfd5e4240fec, type: 3}
+    - emotion: Anticipation
+      texture: {fileID: 2800000, guid: 38f9a80829d4ada42ba21dc00fe70134, type: 3}
+    - emotion: Disgust
+      texture: {fileID: 2800000, guid: 7edd61467517cb34c907be09c63fdd5e, type: 3}
+    - emotion: Fear
+      texture: {fileID: 2800000, guid: a9ed734c85ab8784c9072adfa5b260a5, type: 3}
+    - emotion: Happy
+      texture: {fileID: 2800000, guid: a073f77b7e56be34fb74a37b7950385f, type: 3}
+    - emotion: Neutral
+      texture: {fileID: 2800000, guid: a63b6047d7d2bb8479b3112bc54f0591, type: 3}
+    - emotion: Suprise
+      texture: {fileID: 2800000, guid: ce32440b16c3f5c47a59ca5292b28ad1, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: fc7f24be58f5a884694b756c9ec6a34d, type: 3}
+  - material: {fileID: 2100000, guid: 5239b49c8e2c58144a9a404fd8aef09e, type: 2}
+    textures:
+    - emotion: Angry
+      texture: {fileID: 2800000, guid: 8cd08c1e915880a4ab0d10f5f589e523, type: 3}
+    - emotion: Anticipation
+      texture: {fileID: 2800000, guid: 8dea61ba41250d04ba049d890f81de76, type: 3}
+    - emotion: Disgust
+      texture: {fileID: 2800000, guid: af29aa7d11857314b96e3a1a91d45caa, type: 3}
+    - emotion: Fear
+      texture: {fileID: 2800000, guid: 797ab3aa6ea9d594f8e90c6ce4c78098, type: 3}
+    - emotion: Happy
+      texture: {fileID: 2800000, guid: 47dc49d5d7f589f4d9c08713702038a9, type: 3}
+    - emotion: Neutral
+      texture: {fileID: 2800000, guid: 27d7bd96d8f3df6499bc94b2d538c852, type: 3}
+    - emotion: Suprise
+      texture: {fileID: 2800000, guid: 0aa452115fde170438c832bcd8af009c, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: c33af1be95f6c014f8c84c7a7baeeadb, type: 3}
   transitionDuration: 1
   lightingPresets:
   - emotion: Sad

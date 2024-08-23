@@ -97,8 +97,8 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: cc6adb2a15a10ef41a7f1f87dcb75909, type: 2}
-  m_LightingSettings: {fileID: 4890085278179872738, guid: 3c0e93a336ff141429d5cefd60e3a109, type: 2}
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -450,7 +450,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 1.02e-43, y: 1.4e-44, z: 3.4105e-41, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -568,7 +568,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 1.18e-43, z: 0, w: 2.35e-43}
+  m_BoundingSphereOverride: {x: 1.02e-43, y: 1e-44, z: 3.6189e-41, w: 2.8699e-41}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -1091,7 +1091,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: -4036.0781, z: 9.37e-43, w: 4.41e-43}
+  m_BoundingSphereOverride: {x: 1.02e-43, y: 1e-44, z: 2.9754e-41, w: 1.7595023e+22}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -1209,7 +1209,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 1}
+  m_BoundingSphereOverride: {x: 1.02e-43, y: 8e-45, z: 3.2853e-41, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -2087,6 +2087,24 @@ MonoBehaviour:
       texture: {fileID: 2800000, guid: 3969f7aa2564dd94c947230f97f6db1b, type: 3}
     - emotion: Suprise
       texture: {fileID: 2800000, guid: 550976c9a2b24db4faccb207490705a2, type: 3}
+  - material: {fileID: 2100000, guid: 52a41ba995cc26941bb5c230badaa74a, type: 2}
+    textures:
+    - emotion: Angry
+      texture: {fileID: 2800000, guid: cab40be556a7f1c43bbf4272c3880e65, type: 3}
+    - emotion: Anticipation
+      texture: {fileID: 2800000, guid: 632e4b55a157dc14fadac30576c4a59d, type: 3}
+    - emotion: Sad
+      texture: {fileID: 2800000, guid: bf8575f89821bd848bcf3dcf82c528ae, type: 3}
+    - emotion: Disgust
+      texture: {fileID: 2800000, guid: 95c23cc5effea1349978cbc6ca6ab4a9, type: 3}
+    - emotion: Fear
+      texture: {fileID: 2800000, guid: 209af8864c426864794e59968fd158ce, type: 3}
+    - emotion: Happy
+      texture: {fileID: 2800000, guid: 34187dac1d40c084489ed1ea98159c59, type: 3}
+    - emotion: Neutral
+      texture: {fileID: 2800000, guid: aff7bfb08802fdd45b760247fe4ba9d6, type: 3}
+    - emotion: Suprise
+      texture: {fileID: 2800000, guid: 250eec7e01b3a4b48958cae3319d3cd0, type: 3}
   transitionDuration: 1
   lightingPresets:
   - emotion: Sad
@@ -12223,7 +12241,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: -4036.6875, z: 9.37e-43, w: 2.4e-43}
+  m_BoundingSphereOverride: {x: 1.02e-43, y: 1.3e-44, z: 3.0948e-41, w: 3.9102e-41}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -12341,7 +12359,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 1}
+  m_BoundingSphereOverride: {x: 1.02e-43, y: 1.1e-44, z: 1.4226e-41, w: 1.148e-41}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
