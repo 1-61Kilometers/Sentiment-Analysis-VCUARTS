@@ -1476,6 +1476,10 @@ PrefabInstance:
       propertyPath: m_TargetDisplay
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 562517288371946844, guid: 880003b60658cae468821192fa0240b1, type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 624981706444590038, guid: 880003b60658cae468821192fa0240b1, type: 3}
       propertyPath: m_text
       value: anxiety
@@ -1564,6 +1568,10 @@ PrefabInstance:
       propertyPath: adSuggestionTextUser2
       value: 
       objectReference: {fileID: 1850035567}
+    - target: {fileID: 2429358247511124314, guid: 880003b60658cae468821192fa0240b1, type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 2583809483635101689, guid: 880003b60658cae468821192fa0240b1, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -534
@@ -1747,6 +1755,10 @@ PrefabInstance:
     - target: {fileID: 7275445099684130397, guid: 880003b60658cae468821192fa0240b1, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 340.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 7356237635525685105, guid: 880003b60658cae468821192fa0240b1, type: 3}
+      propertyPath: m_text
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7695403314772504087, guid: 880003b60658cae468821192fa0240b1, type: 3}
       propertyPath: m_AnchoredPosition.x

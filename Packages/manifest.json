@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "com.meta.movement": "file:C:/Users/popielamc/Downloads/Unity-Movement-3.1.1/Unity-Movement-3.1.1",
+    "com.meta.movement": "file:C:/Users/bryanthc/Downloads/Unity-Movement-3.1.1/Unity-Movement-3.1.1",
     "com.meta.xr.sdk.all": "67.0.0",
     "com.openai.unity": "3.0.3",
     "com.unity.ai.navigation": "1.1.5",
