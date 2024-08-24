@@ -109,8 +109,8 @@ GameObject:
   - component: {fileID: 5825556308533300451}
   - component: {fileID: 5594303650009904094}
   - component: {fileID: 3785894643107868600}
-  - component: {fileID: 3104656433059144245}
   - component: {fileID: 2020061031541123749}
+  - component: {fileID: 992133847956327073}
   m_Layer: 0
   m_Name: OVRCameraRig
   m_TagString: Untagged
@@ -299,7 +299,7 @@ MonoBehaviour:
   onAButtonPressed:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3104656433059144245}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SceneSwitcher, Assembly-CSharp
         m_MethodName: SwitchToNextScene
         m_Mode: 1
@@ -326,18 +326,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &3104656433059144245
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3742741878888963377}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 644760add8aa82d4cbbb24303e255e5d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &2020061031541123749
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -353,6 +341,26 @@ MonoBehaviour:
   targetObject: {fileID: 7198521190032376527}
   fileName: RecordedMovement.csv
   recording: 0
+--- !u!114 &992133847956327073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3742741878888963377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609f96b59e5e58842a0a369c91e7802a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerCamera: {fileID: 1843703856363264484}
+  walkSpeed: 3
+  runSpeed: 12
+  jumpPower: 7
+  gravity: 0
+  lookSpeed: 2
+  lookXLimit: 45
+  canMove: 1
 --- !u!1 &3784877390468758552
 GameObject:
   m_ObjectHideFlags: 0
@@ -795,7 +803,7 @@ GameObject:
   - component: {fileID: 3125330632322465746}
   m_Layer: 0
   m_Name: CenterEyeAnchor
-  m_TagString: MainCamera
+  m_TagString: Recording
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1185,7 +1193,7 @@ Transform:
   m_GameObject: {fileID: 7198521190032376527}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.029111572, z: -0, w: 0.9995762}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.7, z: 0}
   m_LocalScale: {x: 0.43624863, y: 0.4362487, z: 0.4362487}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1271,7 +1279,7 @@ MonoBehaviour:
   m_StopNaN: 0
   m_Dithering: 0
   m_ClearDepth: 1
-  m_AllowXRRendering: 0
+  m_AllowXRRendering: 1
   m_AllowHDROutput: 1
   m_UseScreenCoordOverride: 0
   m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
@@ -1560,7 +1568,7 @@ GameObject:
   - component: {fileID: 8023455274998736657}
   m_Layer: 0
   m_Name: LeftEyeAnchor
-  m_TagString: MainCamera
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

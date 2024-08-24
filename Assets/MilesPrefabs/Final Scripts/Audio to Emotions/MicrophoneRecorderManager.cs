@@ -24,7 +24,7 @@ public class MicrophoneRecorderManager : MonoBehaviour
 
     [SerializeField] private AudioClip preRecordedClipUser1;
     [SerializeField] private AudioClip preRecordedClipUser2;
-    [SerializeField] private float playbackVolume = 1f;
+    [SerializeField] private float playbackVolume = 2f;
 
     private AudioRecorder audioRecorderUser1;
     private AudioRecorder audioRecorderUser2;
